@@ -1,8 +1,3 @@
-Yes 👍 **yeh better rahega.** Tum khud apni best screenshots/graphs select karke `![](...)` mein image path daal sakti ho.
-
-Main tumhe **har important section ke andar exact image placement** dunga, aur saath mein bataunga ki **kaunsi type ki image wahan sabse impressive lagegi**. Tum bas `YOUR_IMAGE_PATH_HERE` replace kar dena.
-
-````markdown
 # 🤖 Machine Learning with Python — From Fundamentals to Real-World AI
 
 <p align="center">
@@ -112,7 +107,7 @@ Y --> Z[Deep Learning]
 Y --> AA[NLP]
 Y --> AB[Recommendation Systems]
 Y --> AC[Big Data & Spark]
-````
+
 
 ---
 
