@@ -1,4 +1,3 @@
-````markdown
 # 🤖 Machine Learning with Python — From Fundamentals to Deep Learning
 
 <p align="center">
@@ -108,7 +107,7 @@ L --> M[Cross Validation]
 M --> N[Hyperparameter Tuning]
 N --> O[Model Selection]
 O --> P[Deployment Ready Model]
-````
+
 
 ---
 
