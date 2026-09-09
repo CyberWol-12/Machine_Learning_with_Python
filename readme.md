@@ -210,13 +210,13 @@ I practiced exploratory data analysis and visualization using:
 * Histograms
 * Bar charts
 
-### ⭐ Best Image to Add Here
 
-**Choose:** your best **EDA dashboard / correlation heatmap / multi-plot visualization**.
 
-```text
-![](YOUR_IMAGE_PATH_HERE)
-```
+**Choose:**  **EDA dashboard / correlation heatmap / multi-plot visualization**.
+
+
+![heatmap](heatmap.png)
+
 
 > 💡 Best choice: A graph where multiple variables and patterns are clearly visible. A beautiful correlation heatmap is especially good here.
 
@@ -256,7 +256,7 @@ Regularization
 **Choose:** your strongest **Linear Regression scatter plot with regression line**.
 
 ```text
-![](YOUR_IMAGE_PATH_HERE)
+![Linear Regression](linearregression.png)
 ```
 
 ---
