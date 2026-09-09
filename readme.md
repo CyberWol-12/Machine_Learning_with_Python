@@ -59,7 +59,7 @@ Rather than being only a collection of theoretical notes, this repository focuse
 
 # 🧠 Machine Learning Roadmap
 
-```mermaid
+
 flowchart TD
 
 A[Raw Data] --> B[Data Understanding]
@@ -349,11 +349,11 @@ sns.heatmap(
 
 plt.title("Feature Correlation Heatmap")
 plt.show()
-```
+
 
 ### Workflow
 
-```text
+
 Dataset
    ↓
 EDA
@@ -367,7 +367,7 @@ Feature Relationships
 Feature Selection
    ↓
 Model Building
-```
+
 
 ---
 
