@@ -1,826 +1,1261 @@
-# 🤖 Machine Learning with Python — From Fundamentals to Deep Learning
+Yes 👍 **yeh better rahega.** Tum khud apni best screenshots/graphs select karke `![](...)` mein image path daal sakti ho.
+
+Main tumhe **har important section ke andar exact image placement** dunga, aur saath mein bataunga ki **kaunsi type ki image wahan sabse impressive lagegi**. Tum bas `YOUR_IMAGE_PATH_HERE` replace kar dena.
+
+````markdown
+# 🤖 Machine Learning with Python — From Fundamentals to Real-World AI
 
 <p align="center">
-<img src="https://img.shields.io/badge/Machine%20Learning-Hands--On-0A66C2?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-Data-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-Analytics-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white">
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge">
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
+
+<br>
+
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+<img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
+<img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge">
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white">
+
+<br>
+
+<img src="https://img.shields.io/badge/Machine%20Learning-Algorithms-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Deep%20Learning-Neural%20Networks-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/NLP-Natural%20Language%20Processing-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Recommendation%20Systems-Recommender-purple?style=for-the-badge">
+
+</p>
+
+<h1 align="center">Machine Learning with Python</h1>
+
+<p align="center">
+  <b>A practical journey from Machine Learning fundamentals to Deep Learning, NLP, Recommendation Systems and real-world projects.</b>
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Seaborn-Statistics-4C72B0?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Plotly-Interactive-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/XGBoost-Boosting-EC4E20?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-Neural%20Networks-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/NLP-NLTK-4B8BBE?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Recommendation%20Systems-Recommender-8A2BE2?style=for-the-badge" />
-<img src="https://img.shields.io/badge/TensorBoard-Experiment%20Tracking-FF6F00?style=for-the-badge" />
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/VS%20Code-Development-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-</p>
-
-<p align="center">
-<b>A structured, hands-on Machine Learning portfolio covering classical ML, advanced ML, NLP, recommendation systems, Big Data and Deep Learning.</b>
-</p>
-
-<p align="center">
-<i>From data preprocessing and EDA to model training, evaluation, optimization, neural networks and practical problem solving.</i>
+  <i>Learn → Experiment → Visualize → Evaluate → Build → Improve</i>
 </p>
 
 ---
 
-## 📌 About This Repository
+# 📌 About This Repository
 
-This repository documents my practical journey through the Machine Learning ecosystem.
+This repository documents my hands-on journey through **Machine Learning, Data Science and AI** using Python.
 
-It combines Python practice, data analysis, visualization, supervised and unsupervised learning, model evaluation, optimization, NLP, recommendation systems, Apache Spark and Deep Learning.
+It contains practical notebooks, experiments, visualizations, model evaluations and project-based implementations covering the complete ML workflow.
 
-> **Core workflow:** Problem → Data → EDA → Cleaning → Feature Engineering → Model → Evaluation → Optimization → Interpretation → Application
+The goal is not only to understand algorithms theoretically, but to understand:
+
+- How data is prepared
+- How features are engineered
+- How models are trained
+- How different algorithms behave
+- How models are evaluated
+- How hyperparameters are optimized
+- How ML pipelines are designed
+- How machine learning is applied to real-world problems
 
 ---
 
-## 🧠 Machine Learning Roadmap
+# 🧭 Machine Learning Journey
 
 ```mermaid
 flowchart TD
-A[Raw Data] --> B[Data Understanding]
-B --> C[EDA & Visualization]
-C --> D[Data Cleaning]
-D --> E[Feature Engineering]
 
-E --> F{Machine Learning}
+A[Python & Data Science Foundations] --> B[Data Preprocessing]
 
-F --> G[Supervised Learning]
-F --> H[Unsupervised Learning]
+B --> C[Exploratory Data Analysis]
 
-G --> I[Regression]
-G --> J[Classification]
+C --> D[Supervised Learning]
 
-I --> I1[Linear Regression]
-I --> I2[Regression Trees]
+D --> E[Regression]
+D --> F[Classification]
 
-J --> J1[Logistic Regression]
-J --> J2[KNN]
-J --> J3[Decision Trees]
-J --> J4[Random Forest]
-J --> J5[SVM]
-J --> J6[XGBoost]
+E --> G[Linear Regression]
+E --> H[Regression Trees]
+E --> I[Regularization]
 
-H --> H1[K-Means]
-H --> H2[DBSCAN / HDBSCAN]
-H --> H3[PCA]
-H --> H4[t-SNE / UMAP]
+F --> J[Logistic Regression]
+F --> K[KNN]
+F --> L[Decision Trees]
+F --> M[Random Forest]
+F --> N[SVM]
 
-F --> K[Advanced ML]
+C --> O[Unsupervised Learning]
 
-K --> K1[Recommendation Systems]
-K --> K2[NLP]
-K --> K3[Apache Spark]
-K --> K4[Deep Learning]
+O --> P[K-Means]
+O --> Q[DBSCAN / HDBSCAN]
 
-K4 --> K5[TensorFlow / Keras]
-K4 --> K6[ANN]
-K4 --> K7[TensorBoard]
+O --> R[Dimensionality Reduction]
 
-F --> L[Evaluation & Optimization]
+R --> S[PCA]
+R --> T[t-SNE / UMAP]
 
-L --> M[Cross Validation]
-M --> N[GridSearchCV]
-N --> O[Model Selection]
-O --> P[Deployment Ready Thinking]
-```
+G --> U[Model Evaluation]
+J --> U
+M --> U
+P --> U
+
+U --> V[Cross Validation]
+V --> W[GridSearchCV]
+W --> X[ML Pipelines]
+
+X --> Y[Real-World Projects]
+
+Y --> Z[Deep Learning]
+Y --> AA[NLP]
+Y --> AB[Recommendation Systems]
+Y --> AC[Big Data & Spark]
+````
 
 ---
 
-## 📚 Table of Contents
+# 📑 Table of Contents
 
-- [Technology Stack](#-technology-stack)
-- [Machine Learning Coverage](#-machine-learning-coverage)
-- [Data Science & Visualization](#-data-science--visualization)
-- [Supervised Learning](#-supervised-learning)
-- [Unsupervised Learning](#-unsupervised-learning)
-- [Model Evaluation & Optimization](#-model-evaluation--optimization)
-- [Recommendation Systems](#-recommendation-systems)
-- [Natural Language Processing](#-natural-language-processing)
-- [Big Data & Apache Spark](#-big-data--apache-spark)
-- [Deep Learning](#-deep-learning)
-- [Complete Visualization Gallery](#-complete-visualization-gallery)
-- [Hands-On Projects](#-hands-on-projects)
-- [Repository Structure](#-repository-structure)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Learning Progression](#-learning-progression)
-- [Learning Philosophy](#-learning-philosophy)
-- [Future Roadmap](#-future-roadmap)
-- [About Me](#-about-me)
-- [Career Focus](#-career-focus)
-- [Journey Continues](#-journey-continues)
+* [About This Repository](#-about-this-repository)
+* [Machine Learning Journey](#-machine-learning-journey)
+* [Technology Stack](#-technology-stack)
+* [Machine Learning Coverage](#-machine-learning-coverage)
+* [Data Science & Visualization](#-data-science--visualization)
+* [Supervised Learning](#-supervised-learning)
+* [Unsupervised Learning](#-unsupervised-learning)
+* [Model Evaluation & Optimization](#-model-evaluation--optimization)
+* [Recommendation Systems](#-recommendation-systems)
+* [Natural Language Processing](#-natural-language-processing)
+* [Big Data & Apache Spark](#-big-data--apache-spark)
+* [Deep Learning](#-deep-learning)
+* [Complete Visualization Gallery](#-complete-visualization-gallery)
+* [Hands-On Projects](#-hands-on-projects)
+* [Repository Structure](#-repository-structure)
+* [Skills Demonstrated](#-skills-demonstrated)
+* [Learning Progression](#-learning-progression)
+* [Future Roadmap](#-future-roadmap)
+* [About Me](#-about-me)
+* [Journey Continues](#-journey-continues)
 
 ---
 
 # 🛠️ Technology Stack
 
-| Domain | Tools / Technologies |
-|---|---|
-| Programming | Python |
-| Data Science | NumPy, Pandas, SciPy |
-| Visualization | Matplotlib, Seaborn, Plotly, Cufflinks |
-| Machine Learning | Scikit-learn, XGBoost |
-| Regression | Linear Regression, Multiple Regression, Regression Trees, Regularization |
-| Classification | Logistic Regression, KNN, Decision Trees, Random Forest, SVM |
-| Unsupervised ML | K-Means, DBSCAN, HDBSCAN, PCA, t-SNE, UMAP |
-| Optimization | Cross Validation, StratifiedKFold, GridSearchCV, Pipelines |
-| NLP | NLTK, Tokenization, Text Processing, Classification |
-| Recommendation | Similarity, User/Item Recommendation Workflows |
-| Big Data | Apache Spark, RDDs, Transformations, Actions |
-| Deep Learning | TensorFlow, Keras, ANN, MNIST, TensorBoard |
-| Development | Jupyter Notebook, Git, GitHub, VS Code |
+## 🐍 Programming & Data
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode,jupyter" />
+
+</p>
+
+### Core Libraries
+
+| Category          | Technologies                |
+| ----------------- | --------------------------- |
+| Programming       | Python                      |
+| Data Manipulation | NumPy, Pandas               |
+| Visualization     | Matplotlib, Seaborn, Plotly |
+| Machine Learning  | Scikit-learn                |
+| Gradient Boosting | XGBoost                     |
+| Deep Learning     | TensorFlow, Keras           |
+| NLP               | NLTK                        |
+| Big Data          | Apache Spark                |
+| Development       | Jupyter Notebook, VS Code   |
+| Version Control   | Git, GitHub                 |
 
 ---
 
-# 📊 Machine Learning Coverage
+# 🤖 Machine Learning Coverage
 
-| Area | Algorithms / Concepts | Practical |
-|---|---|:---:|
-| Regression | Linear, Multiple Linear, Regression Trees, Regularization | ✅ |
-| Classification | Logistic Regression, Multi-class, KNN, Decision Trees, SVM | ✅ |
-| Ensemble Learning | Random Forest, XGBoost | ✅ |
-| Clustering | K-Means, DBSCAN, HDBSCAN | ✅ |
-| Dimensionality Reduction | PCA, t-SNE, UMAP | ✅ |
-| Evaluation | Accuracy, Precision, Recall, F1, Confusion Matrix, MAE, MSE, RMSE, R² | ✅ |
-| Validation | K-Fold, StratifiedKFold, Cross Validation | ✅ |
-| Optimization | GridSearchCV, Hyperparameter Tuning | ✅ |
-| Pipelines | Scaling, PCA, Estimator Pipelines | ✅ |
-| NLP | NLTK, Text Processing, Classification | ✅ |
-| Recommendation | Similarity and recommendation workflows | ✅ |
-| Big Data | Apache Spark, RDDs, Distributed Processing | ✅ |
-| Deep Learning | TensorFlow, Keras, ANN, MNIST, TensorBoard | ✅ |
+This repository covers the complete machine learning workflow.
+
+| Area                     | Concepts                                      |
+| ------------------------ | --------------------------------------------- |
+| Data Preprocessing       | Cleaning, transformation, feature preparation |
+| Regression               | Simple & Multiple Linear Regression           |
+| Classification           | Binary & Multi-class Classification           |
+| Decision Trees           | Classification & Regression Trees             |
+| Random Forest            | Ensemble Learning                             |
+| SVM                      | Support Vector Machines                       |
+| KNN                      | K-Nearest Neighbors                           |
+| Clustering               | K-Means, DBSCAN, HDBSCAN                      |
+| Dimensionality Reduction | PCA, t-SNE, UMAP                              |
+| Evaluation               | Accuracy, Precision, Recall, F1, ROC-AUC      |
+| Validation               | Train/Test Split, Cross Validation            |
+| Optimization             | GridSearchCV, Hyperparameter Tuning           |
+| Pipelines                | Scikit-learn ML Pipelines                     |
+| NLP                      | Text Processing & Classification              |
+| Recommendation           | Recommender System Concepts                   |
+| Deep Learning            | ANN, TensorFlow, Keras                        |
+| Big Data                 | Apache Spark                                  |
 
 ---
 
 # 📊 Data Science & Visualization
 
-Hands-on visualization work includes:
+A strong ML workflow starts with understanding the data.
 
-- Histograms
-- Box Plots
-- Scatter Plots
-- Line Charts
-- Bar Charts
-- Heatmaps
-- Correlation Matrices
-- Regression Plots
-- Distribution Plots
-- Categorical Plots
-- Matrix Plots
-- Interactive Visualizations
-- Geographical Visualizations
-- Model evaluation visualizations
-- Clustering visualizations
-- Neural-network training visualizations
+I practiced exploratory data analysis and visualization using:
+
+* Pandas
+* Matplotlib
+* Seaborn
+* Plotly
+* Statistical analysis
+* Correlation analysis
+* Distribution analysis
+* Categorical analysis
+* Time-series visualization
+* Heatmaps
+* Boxplots
+* Scatterplots
+* Histograms
+* Bar charts
+
+### ⭐ Best Image to Add Here
+
+**Choose:** your best **EDA dashboard / correlation heatmap / multi-plot visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+> 💡 Best choice: A graph where multiple variables and patterns are clearly visible. A beautiful correlation heatmap is especially good here.
 
 ---
 
 # 🎯 Supervised Learning
 
+Supervised learning forms one of the core parts of this repository.
+
+---
+
 ## 📈 Regression
 
-Practical work with:
+### Concepts Covered
 
-- Simple Linear Regression
-- Multiple Linear Regression
-- Regression Trees
-- Residual Analysis
-- MAE
-- MSE
-- RMSE
-- R² Score
-- Regularization
+* Simple Linear Regression
+* Multiple Linear Regression
+* Regression Trees
+* Regularization
+* Model prediction
+* Regression metrics
 
-### Regression Workflow
+### Algorithms
+
+```text
+Linear Regression
+      ↓
+Multiple Linear Regression
+      ↓
+Regression Trees
+      ↓
+Regularization
+```
+
+### ⭐ Best Image to Add
+
+**Choose:** your strongest **Linear Regression scatter plot with regression line**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🧮 Simple Linear Regression
+
+Simple Linear Regression models the relationship between an independent variable and a continuous target variable.
+
+### Workflow
 
 ```text
 Dataset
    ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
 Feature Selection
    ↓
-Train / Test Split
+Train/Test Split
    ↓
 Model Training
    ↓
 Prediction
    ↓
 Evaluation
-   ↓
-Optimization
+```
+
+### ⭐ Recommended Visualization
+
+Choose the graph showing:
+
+**Actual data points + regression line**
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
 ```
 
 ---
 
-## 🏷️ Classification
+## 📊 Multiple Linear Regression
 
-Algorithms and concepts covered:
+Multiple Linear Regression extends regression to multiple independent variables.
 
-- Logistic Regression
-- Multi-class Classification
-- K-Nearest Neighbors
-- Decision Trees
-- Random Forest
-- Support Vector Machines
-- XGBoost
-- Confusion Matrix
-- Classification Report
-- Precision
-- Recall
-- F1 Score
-- Accuracy
+### Key Skills
+
+* Feature selection
+* Multiple predictors
+* Model fitting
+* Prediction
+* Evaluation
+* Interpretation
+
+### ⭐ Recommended Visualization
+
+Choose your **best multiple regression output / prediction visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🔧 Regularization
+
+Regularization helps control model complexity and reduce overfitting.
+
+### Concepts
+
+* Ridge Regression
+* Lasso Regression
+* Model complexity
+* Bias-variance trade-off
+* Overfitting control
+
+### ⭐ Recommended Visualization
+
+Choose your **best regularization graph**, preferably the one clearly showing model performance/change with regularization.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+# 🏷️ Classification
+
+Classification is used to predict categorical outcomes.
+
+### Topics Covered
+
+* Logistic Regression
+* Binary Classification
+* Multi-class Classification
+* KNN Classification
+* Decision Trees
+* Random Forest
+* SVM
+
+---
+
+## 🔵 Logistic Regression
+
+Logistic Regression is used for classification problems where the target represents discrete classes.
+
+### ⭐ Recommended Visualization
+
+Choose your **Logistic Regression classification visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🌳 Decision Trees
+
+Decision Trees make predictions using a sequence of decision rules.
+
+### Concepts
+
+* Splitting
+* Gini impurity
+* Entropy
+* Information gain
+* Tree depth
+* Overfitting
+
+### ⭐ Recommended Visualization
+
+**Best choice:** a clearly visible **Decision Tree diagram**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+> 💡 This is one of the best visuals for a recruiter because the algorithm is immediately understandable visually.
+
+---
+
+## 🌲 Random Forest
+
+Random Forest combines multiple decision trees to create a powerful ensemble model.
+
+### Concepts
+
+* Ensemble learning
+* Bagging
+* Multiple decision trees
+* Feature importance
+* Classification
+* Regression
+
+### ⭐ Recommended Visualization
+
+Choose your best **Random Forest performance / feature importance visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🎯 K-Nearest Neighbors — KNN
+
+KNN predicts a class based on neighboring observations.
+
+### Concepts
+
+* Distance metrics
+* Nearest neighbors
+* Classification
+* Choosing K
+* Model evaluation
+
+### ⭐ Recommended Visualization
+
+Choose your best **KNN classification plot**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## ⚙️ Support Vector Machines — SVM
+
+SVM finds an optimal decision boundary between classes.
+
+### Concepts
+
+* Hyperplanes
+* Margins
+* Support vectors
+* Classification
+* Kernel concepts
+
+### ⭐ Recommended Visualization
+
+Choose your **SVM decision boundary / classification visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
 ---
 
 # 🔍 Unsupervised Learning
 
-Covered concepts:
+Unsupervised learning discovers hidden patterns and structures in unlabeled data.
 
-- K-Means Clustering
-- DBSCAN
-- HDBSCAN
-- PCA
-- t-SNE
-- UMAP
-- Cluster Evaluation
-- Customer Segmentation
-- Dimensionality Reduction
-- Visualization of clusters
+---
+
+# 👥 K-Means Clustering
+
+K-Means groups observations into clusters based on similarity.
+
+### Concepts
+
+* Cluster formation
+* Centroids
+* Distance calculation
+* Customer segmentation
+* Elbow method
+* Cluster evaluation
+
+### ⭐ Best Visualization
+
+**Customer segmentation cluster plot**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+> 💡 If you have a graph with clearly separated customer clusters, use that one.
+
+---
+
+# 🧩 DBSCAN & HDBSCAN
+
+Density-based clustering algorithms can identify clusters with irregular shapes and noise.
+
+### Concepts
+
+* Density-based clustering
+* Core points
+* Noise points
+* Outliers
+* DBSCAN
+* HDBSCAN
+
+### ⭐ Best Visualization
+
+Choose your **DBSCAN vs HDBSCAN comparison graph**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+# 📉 Dimensionality Reduction
+
+Dimensionality reduction helps represent high-dimensional data in fewer dimensions while preserving important information.
+
+---
+
+## 🧬 PCA — Principal Component Analysis
+
+PCA transforms high-dimensional data into a smaller set of principal components.
+
+### Concepts
+
+* Principal components
+* Variance
+* Feature transformation
+* Dimensionality reduction
+
+### ⭐ Best Visualization
+
+Choose your **PCA explained variance / PCA projection graph**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🌌 t-SNE & UMAP
+
+t-SNE and UMAP are powerful techniques for visualizing high-dimensional datasets.
+
+### ⭐ Best Visualization
+
+Choose the visualization where **clusters are clearly separated**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
 ---
 
 # 🧪 Model Evaluation & Optimization
 
-A model is treated as a complete workflow rather than only something that trains successfully.
+Building a model is only one part of Machine Learning.
 
-### Evaluation Metrics
+A production-oriented workflow requires reliable evaluation and optimization.
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Classification Report
-- MAE
-- MSE
-- RMSE
-- R²
+### Evaluation Techniques
 
-### Validation
-
-- K-Fold Cross Validation
-- StratifiedKFold
-- Train/Test Split
-- Model Comparison
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+* ROC-AUC
+* Cross Validation
+* Model comparison
 
 ### Optimization
 
-- GridSearchCV
-- Hyperparameter Tuning
-- Regularization
-- Feature Scaling
-- PCA
-- ML Pipelines
-- Model Selection
+* Hyperparameter tuning
+* GridSearchCV
+* Cross-validation
+* Pipeline construction
 
 ---
 
-## ⚙️ Pipeline + GridSearchCV
+## 📊 Classification Model Evaluation
 
-Example hyperparameter search:
+### ⭐ Best Visualization
 
-```python
-param_grid = {
-    "knn__n_neighbors": [3, 5, 7],
-    "pca__n_components": [2, 3]
-}
+Choose your **confusion matrix heatmap**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+> 💡 **Best recruiter choice:** Confusion Matrix + Heatmap because it immediately shows that you understand model evaluation.
+
+---
+
+## 🌲 Random Forest Evaluation
+
+### ⭐ Best Visualization
+
+Choose the strongest graph showing:
+
+* Accuracy
+* Precision
+* Recall
+* F1
+* Feature importance
+* Model performance
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🔄 Cross Validation
+
+Cross-validation provides a more reliable estimate of model performance.
+
+```text
+Dataset
+   ↓
+Fold 1
+Fold 2
+Fold 3
+Fold 4
+Fold 5
+   ↓
+Average Performance
+```
+
+### ⭐ Recommended Image
+
+Choose any visualization from your evaluation notebook that demonstrates **model comparison or validation performance**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+# ⚙️ ML Pipelines & GridSearchCV
+
+A professional ML workflow should avoid disconnected preprocessing and modeling steps.
+
+This repository includes experiments with:
+
+* Scikit-learn Pipelines
+* StandardScaler
+* PCA
+* KNN
+* GridSearchCV
+* Hyperparameter optimization
+* Cross-validation
+
+### Pipeline
+
+```text
+Raw Data
+   ↓
+Preprocessing
+   ↓
+Scaling
+   ↓
+Dimensionality Reduction
+   ↓
+Model
+   ↓
+GridSearchCV
+   ↓
+Best Parameters
+   ↓
+Evaluation
+```
+
+### ⭐ Best Visualization
+
+Choose your **GridSearchCV / ML Pipeline output**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
 ```
 
 ---
 
 # 🎯 Recommendation Systems
 
-Hands-on exploration of recommendation workflows, similarity-based methods, user-item relationships and personalized recommendation concepts.
+Recommendation systems are used to personalize content, products and services.
 
-### Recommendation Workflow
+### Concepts Covered
 
-```mermaid
-flowchart LR
+* Recommender systems
+* Similarity
+* User-item relationships
+* Recommendation workflows
+* Recommendation project experiments
 
-A[Users] --> C[User Preferences]
-B[Items] --> D[Item Features]
+### Applications
 
-C --> E[Recommendation Engine]
-D --> E
+* Netflix
+* Amazon
+* Spotify
+* YouTube
+* E-commerce
+* Travel platforms
 
-E --> F[Similarity / Ranking]
-F --> G[Personalized Recommendations]
+### ⭐ Best Visualization
 
-G --> H[Feedback]
-H --> C
+Choose your strongest **Recommendation System result / similarity visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
 ```
-
-### Concepts
-
-- Recommendation Systems
-- User-Item Relationships
-- Similarity
-- Ranking
-- Personalized Recommendations
-- Recommendation Workflows
 
 ---
 
 # 📝 Natural Language Processing
 
-Hands-on NLP exploration using Python and NLTK.
+NLP enables machines to process and understand human language.
 
-### NLP Concepts
+### Topics Covered
 
-- Text Cleaning
-- Tokenization
-- Stopword Handling
-- Normalization
-- Text Preprocessing
-- Feature Preparation
-- Text Classification
-- Sentiment Analysis Concepts
-- Spam Classification Concepts
-- Document Classification Concepts
+* Text preprocessing
+* Tokenization
+* Stopword removal
+* Stemming
+* Lemmatization
+* Bag of Words
+* Text classification
+* NLTK
+* NLP projects
 
-### NLP Pipeline
+### NLP Workflow
 
-```mermaid
-flowchart LR
+```text
+Raw Text
+   ↓
+Cleaning
+   ↓
+Tokenization
+   ↓
+Stopword Removal
+   ↓
+Feature Extraction
+   ↓
+Model
+   ↓
+Prediction
+```
 
-A[Raw Text] --> B[Cleaning]
-B --> C[Tokenization]
-C --> D[Normalization]
-D --> E[Feature Extraction]
-E --> F[ML Model]
-F --> G[Prediction]
+### ⭐ Best Visualization
+
+Choose your best **NLP word-frequency / text analysis / classification visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
 ```
 
 ---
 
-# ⚡ Big Data & Apache Spark
+# 🧠 Deep Learning
 
-Explored concepts include:
+This repository also extends into Deep Learning using **TensorFlow and Keras**.
 
-- Apache Spark Fundamentals
-- Spark with Python
-- RDDs
-- RDD Transformations
-- RDD Actions
-- Lambda Expressions
-- Distributed Processing
-- Big Data Processing Concepts
+### Topics Covered
+
+* Artificial Neural Networks
+* TensorFlow
+* Keras
+* Neural network architecture
+* Regression with neural networks
+* Classification with neural networks
+* MNIST
+* Model training
+* Model evaluation
+* Training history
+* TensorBoard
 
 ---
 
-# 🤖 Deep Learning
+## 🧠 Artificial Neural Networks
 
-The repository progresses from classical Machine Learning into neural-network based learning.
+```text
+Input Layer
+     ↓
+Hidden Layer
+     ↓
+Hidden Layer
+     ↓
+Output Layer
+```
 
-### Deep Learning Topics
+### ⭐ Best Visualization
 
-- TensorFlow Fundamentals
-- Keras Syntax
-- Keras Workflows
-- Artificial Neural Networks
-- Neural Network Regression
-- Neural Network Classification
-- MNIST
-- TensorFlow Estimators
-- Model Training
-- Model Evaluation
-- TensorBoard
+Choose your **neural network architecture / model training visualization**.
 
-### Neural Network Workflow
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-```mermaid
-flowchart LR
+---
 
-A[Input Features]
---> B[Input Layer]
---> C[Hidden Layer]
---> D[Activation Function]
---> E[Hidden Layer]
---> F[Output Layer]
---> G[Prediction]
+## 🔢 Keras Regression
+
+Keras was used to build neural-network-based regression workflows.
+
+### ⭐ Best Visualization
+
+Choose your **training loss / validation loss graph**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🏷️ Keras Classification
+
+Neural networks were also explored for classification problems.
+
+### ⭐ Best Visualization
+
+Choose your **accuracy/loss training curve or classification result**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 🔢 MNIST with TensorFlow
+
+MNIST provides a classic image-classification problem for neural networks.
+
+### ⭐ Best Visualization
+
+Choose the **MNIST prediction/sample visualization**.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+---
+
+## 📈 TensorBoard
+
+TensorBoard helps monitor and visualize model training.
+
+### ⭐ Best Visualization
+
+Choose your **TensorBoard screenshot** if you have one.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
 ```
 
 ---
 
 # 🖼️ Complete Visualization Gallery
 
-> **Important:** The gallery below uses the actual PNG outputs extracted from the notebooks in this repository.
+> This section should contain your **best selected graphs**, not every tiny intermediate output.
 >
-> Keep the `assets/graphs/` folder inside your GitHub repository so all images render correctly.
+> The goal is to make the README visually impressive while keeping it recruiter-friendly.
 
 ---
 
 ## 📈 ML Fundamentals & Regression
 
-<details>
-<summary><b>Show Regression Visualizations</b></summary>
+### Simple Linear Regression
 
-<img src="assets/graphs/0-1-simple-linear-regression-0.png" width="49%" alt="Simple Linear Regression 0" />
-<img src="assets/graphs/0-1-simple-linear-regression-1.png" width="49%" alt="Simple Linear Regression 1" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/02-mulitple-linear-regression-0.png" width="49%" alt="Multiple Linear Regression 0" />
-<img src="assets/graphs/02-mulitple-linear-regression-1.png" width="49%" alt="Multiple Linear Regression 1" />
-
-<img src="assets/graphs/1-linear-regression-0.png" width="49%" alt="Linear Regression 0" />
-<img src="assets/graphs/1-linear-regression-1.png" width="49%" alt="Linear Regression 1" />
-
-<img src="assets/graphs/2-multiple-linear-regression-0.png" width="49%" alt="Multiple Linear Regression 0" />
-<img src="assets/graphs/2-multiple-linear-regression-1.png" width="49%" alt="Multiple Linear Regression 1" />
-
-<img src="assets/graphs/2-multiple-linear-regression-2.png" width="49%" alt="Multiple Linear Regression 2" />
-<img src="assets/graphs/2-multiple-linear-regression-3.png" width="49%" alt="Multiple Linear Regression 3" />
-
-<img src="assets/graphs/6-regression-trees-0.png" width="49%" alt="Regression Trees" />
-
-<img src="assets/graphs/17-regularization-in-linearregression-0.png" width="49%" alt="Regularization 0" />
-<img src="assets/graphs/17-regularization-in-linearregression-1.png" width="49%" alt="Regularization 1" />
-
-<img src="assets/graphs/17-regularization-in-linearregression-2.png" width="49%" alt="Regularization 2" />
-<img src="assets/graphs/17-regularization-in-linearregression-3.png" width="49%" alt="Regularization 3" />
-
-<img src="assets/graphs/17-regularization-in-linearregression-4.png" width="49%" alt="Regularization 4" />
-<img src="assets/graphs/17-regularization-in-linearregression-5.png" width="49%" alt="Regularization 5" />
-
-<img src="assets/graphs/17-regularization-in-linearregression-6.png" width="49%" alt="Regularization 6" />
-<img src="assets/graphs/17-regularization-in-linearregression-7.png" width="49%" alt="Regularization 7" />
-
-</details>
+**Choose:** Regression line + data points.
 
 ---
 
-## 🏷️ Classification, Trees, KNN & SVM
+### Multiple Linear Regression
 
-<details>
-<summary><b>Show Classification Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/3-logistic-regression-0.png" width="49%" alt="Logistic Regression" />
-
-<img src="assets/graphs/4-multi-class-classification-0.png" width="49%" alt="Multi Class Classification 0" />
-<img src="assets/graphs/4-multi-class-classification-1.png" width="49%" alt="Multi Class Classification 1" />
-
-<img src="assets/graphs/4-multi-class-classification-2.png" width="49%" alt="Multi Class Classification 2" />
-
-<img src="assets/graphs/5-decision-tree-0.png" width="49%" alt="Decision Tree 0" />
-<img src="assets/graphs/5-decision-tree-1.png" width="49%" alt="Decision Tree 1" />
-
-<img src="assets/graphs/05-decision-trees-0.png" width="49%" alt="Decision Trees 0" />
-<img src="assets/graphs/05-decision-trees-1.png" width="49%" alt="Decision Trees 1" />
-
-<img src="assets/graphs/7-decision-tree-svm-0.png" width="49%" alt="Decision Tree SVM" />
-
-<img src="assets/graphs/8-knn-classifier-0.png" width="49%" alt="KNN Classifier" />
-
-<img src="assets/graphs/08-knn-classification-0.png" width="49%" alt="KNN Classification 0" />
-<img src="assets/graphs/08-knn-classification-1.png" width="49%" alt="KNN Classification 1" />
-
-<img src="assets/graphs/9-random-forest-0.png" width="49%" alt="Random Forest 0" />
-<img src="assets/graphs/9-random-forest-1.png" width="49%" alt="Random Forest 1" />
-
-</details>
+**Choose:** strongest prediction/performance visualization.
 
 ---
 
-## 🔍 Clustering & Dimensionality Reduction
+### Regression Trees
 
-<details>
-<summary><b>Show Clustering & PCA / t-SNE / UMAP Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/10-k-mean-customer-segment-0.png" width="49%" alt="K Means Customer Segmentation 0" />
-<img src="assets/graphs/10-k-mean-customer-segment-1.png" width="49%" alt="K Means Customer Segmentation 1" />
-
-<img src="assets/graphs/11-comparing-dbscan-hdbscan-0.png" width="49%" alt="DBSCAN HDBSCAN Comparison" />
-<img src="assets/graphs/11-dbscan-hdbscan-0.png" width="49%" alt="DBSCAN HDBSCAN" />
-
-<img src="assets/graphs/12-pca-0.png" width="49%" alt="PCA 0" />
-<img src="assets/graphs/12-pca-1.png" width="49%" alt="PCA 1" />
-
-<img src="assets/graphs/12-pca-2.png" width="49%" alt="PCA 2" />
-
-<img src="assets/graphs/13-tsne-umap-0.png" width="49%" alt="tSNE UMAP 0" />
-<img src="assets/graphs/13-tsne-umap-1.png" width="49%" alt="tSNE UMAP 1" />
-
-<img src="assets/graphs/16-evaluate-k-mean-clustreing-0.png" width="49%" alt="K Means Evaluation" />
-
-<img src="assets/graphs/16-evaluating-k-means-clustering-0.png" width="49%" alt="K Means Evaluation 0" />
-<img src="assets/graphs/16-evaluating-k-means-clustering-1.png" width="49%" alt="K Means Evaluation 1" />
-
-<img src="assets/graphs/16-evaluating-k-means-clustering-2.png" width="49%" alt="K Means Evaluation 2" />
-<img src="assets/graphs/16-evaluating-k-means-clustering-3.png" width="49%" alt="K Means Evaluation 3" />
-
-<img src="assets/graphs/16-evaluating-k-means-clustering-4.png" width="49%" alt="K Means Evaluation 4" />
-
-</details>
+**Choose:** regression tree or prediction visualization.
 
 ---
 
-## 🧪 Model Evaluation, Random Forest & Pipelines
+### Regularization
 
-<details>
-<summary><b>Show Evaluation & Optimization Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/14-elauation-model-classification-0.png" width="49%" alt="Classification Evaluation 0" />
-<img src="assets/graphs/14-elauation-model-classification-1.png" width="49%" alt="Classification Evaluation 1" />
-
-<img src="assets/graphs/14-elauation-model-classification-2.png" width="49%" alt="Classification Evaluation 2" />
-<img src="assets/graphs/14-elauation-model-classification-3.png" width="49%" alt="Classification Evaluation 3" />
-
-<img src="assets/graphs/14-evaluating-classification-models-0.png" width="49%" alt="Classification Models Evaluation 0" />
-<img src="assets/graphs/14-evaluating-classification-models-1.png" width="49%" alt="Classification Models Evaluation 1" />
-
-<img src="assets/graphs/15-evaluating-random-forest-0.png" width="49%" alt="Random Forest Evaluation 0" />
-<img src="assets/graphs/15-evaluating-random-forest-1.png" width="49%" alt="Random Forest Evaluation 1" />
-
-<img src="assets/graphs/15-evaluating-random-forest-2.png" width="49%" alt="Random Forest Evaluation 2" />
-<img src="assets/graphs/15-evaluating-random-forest-3.png" width="49%" alt="Random Forest Evaluation 3" />
-
-<img src="assets/graphs/15-evaluating-random-forest-4.png" width="49%" alt="Random Forest Evaluation 4" />
-
-<img src="assets/graphs/15-evaluating-random-forest-performance-0.png" width="49%" alt="Random Forest Performance 0" />
-<img src="assets/graphs/15-evaluating-random-forest-performance-1.png" width="49%" alt="Random Forest Performance 1" />
-
-<img src="assets/graphs/15-evaluating-random-forest-performance-2.png" width="49%" alt="Random Forest Performance 2" />
-
-<img src="assets/graphs/18-ml-pipeline-and-gridsearchcv-0.png" width="49%" alt="ML Pipeline GridSearchCV" />
-<img src="assets/graphs/18-ml-pipelines-and-gridsearchcv-0.png" width="49%" alt="ML Pipelines GridSearchCV" />
-
-</details>
+**Choose:** Ridge/Lasso/model complexity graph.
 
 ---
 
-## 🚀 Projects & Final Work
+# 🏷️ Classification Gallery
 
-<details>
-<summary><b>Show Project Visualizations</b></summary>
+## Logistic Regression
 
-<img src="assets/graphs/19-major-project1-0.png" width="49%" alt="Major Project 0" />
-<img src="assets/graphs/19-major-project1-1.png" width="49%" alt="Major Project 1" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/19-practice-project-0.png" width="49%" alt="Practice Project 0" />
-<img src="assets/graphs/19-practice-project-1.png" width="49%" alt="Practice Project 1" />
-
-<img src="assets/graphs/19-practice-project-2.png" width="49%" alt="Practice Project 2" />
-<img src="assets/graphs/19-practice-project-3.png" width="49%" alt="Practice Project 3" />
-
-<img src="assets/graphs/20-final-project-0.png" width="49%" alt="Final Project 0" />
-<img src="assets/graphs/20-final-project-1.png" width="49%" alt="Final Project 1" />
-
-<img src="assets/graphs/20-final-project-2.png" width="49%" alt="Final Project 2" />
-
-<img src="assets/graphs/20-finalproject-ausweather-1-0.png" width="49%" alt="Australia Weather Final Project 0" />
-<img src="assets/graphs/20-finalproject-ausweather-1-1.png" width="49%" alt="Australia Weather Final Project 1" />
-
-</details>
+**Choose:** classification boundary/result.
 
 ---
 
-# 📝 NLP — Natural Language Processing
+## Decision Trees
 
-<details>
-<summary><b>Show NLP Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/nlp-01-nlp-natural-language-processing-with-python-0.png" width="49%" alt="NLP Natural Language Processing 0" />
-<img src="assets/graphs/nlp-01-nlp-natural-language-processing-with-python-1.png" width="49%" alt="NLP Natural Language Processing 1" />
-
-<img src="assets/graphs/nlp-02-nlp-project-0.png" width="49%" alt="NLP Project 0" />
-<img src="assets/graphs/nlp-02-nlp-project-1.png" width="49%" alt="NLP Project 1" />
-
-<img src="assets/graphs/nlp-02-nlp-project-2.png" width="49%" alt="NLP Project 2" />
-<img src="assets/graphs/nlp-02-nlp-project-3.png" width="49%" alt="NLP Project 3" />
-
-<img src="assets/graphs/nlp-03-nlp-project-solutions-0.png" width="49%" alt="NLP Project Solutions 0" />
-<img src="assets/graphs/nlp-03-nlp-project-solutions-1.png" width="49%" alt="NLP Project Solutions 1" />
-
-<img src="assets/graphs/nlp-03-nlp-project-solutions-2.png" width="49%" alt="NLP Project Solutions 2" />
-<img src="assets/graphs/nlp-03-nlp-project-solutions-3.png" width="49%" alt="NLP Project Solutions 3" />
-
-<img src="assets/graphs/nlp-04-nltk-0.png" width="49%" alt="NLTK 0" />
-<img src="assets/graphs/nlp-04-nltk-1.png" width="49%" alt="NLTK 1" />
-
-<img src="assets/graphs/nlp-05-nltk-0.png" width="49%" alt="NLTK 0" />
-<img src="assets/graphs/nlp-05-nltk-1.png" width="49%" alt="NLTK 1" />
-
-</details>
+**Choose:** Decision Tree structure.
 
 ---
 
-# 🎯 Recommendation Systems
+## KNN
 
-<details>
-<summary><b>Show Recommendation System Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/recommendation-01-recommender-systems-with-python-0.png" width="49%" alt="Recommender Systems 0" />
-<img src="assets/graphs/recommendation-01-recommender-systems-with-python-1.png" width="49%" alt="Recommender Systems 1" />
-
-<img src="assets/graphs/recommendation-01-recommender-systems-with-python-2.png" width="49%" alt="Recommender Systems 2" />
-
-<img src="assets/graphs/recommendation-03-recommendation-0.png" width="49%" alt="Recommendation 0" />
-<img src="assets/graphs/recommendation-03-recommendation-1.png" width="49%" alt="Recommendation 1" />
-
-<img src="assets/graphs/recommendation-03-recommendation-2.png" width="49%" alt="Recommendation 2" />
-
-</details>
+**Choose:** KNN classification visualization.
 
 ---
 
-# 🧠 Deep Learning — TensorFlow & Keras
+## Random Forest
 
-<details>
-<summary><b>Show Deep Learning Visualizations</b></summary>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-00-keras-syntax-basics-0.png" width="49%" alt="Keras Syntax Basics 0" />
-<img src="assets/graphs/deep-learning-00-keras-syntax-basics-1.png" width="49%" alt="Keras Syntax Basics 1" />
+**Choose:** feature importance or model performance.
 
-<img src="assets/graphs/deep-learning-00-keras-syntax-basics-2.png" width="49%" alt="Keras Syntax Basics 2" />
-<img src="assets/graphs/deep-learning-00-keras-syntax-basics-3.png" width="49%" alt="Keras Syntax Basics 3" />
+---
 
-<img src="assets/graphs/deep-learning-01-keras-regression-0.png" width="49%" alt="Keras Regression 0" />
-<img src="assets/graphs/deep-learning-01-keras-regression-1.png" width="49%" alt="Keras Regression 1" />
+## SVM
 
-<img src="assets/graphs/deep-learning-01-keras-regression-2.png" width="49%" alt="Keras Regression 2" />
-<img src="assets/graphs/deep-learning-01-keras-regression-3.png" width="49%" alt="Keras Regression 3" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-01-keras-regression-4.png" width="49%" alt="Keras Regression 4" />
-<img src="assets/graphs/deep-learning-01-keras-regression-5.png" width="49%" alt="Keras Regression 5" />
+**Choose:** SVM boundary/margin visualization.
 
-<img src="assets/graphs/deep-learning-01-keras-regression-6.png" width="49%" alt="Keras Regression 6" />
-<img src="assets/graphs/deep-learning-01-keras-regression-7.png" width="49%" alt="Keras Regression 7" />
+---
 
-<img src="assets/graphs/deep-learning-01-keras-regression-8.png" width="49%" alt="Keras Regression 8" />
-<img src="assets/graphs/deep-learning-01-keras-regression-9.png" width="49%" alt="Keras Regression 9" />
+# 🔍 Clustering & Dimensionality Reduction Gallery
 
-<img src="assets/graphs/deep-learning-01-keras-regression-10.png" width="49%" alt="Keras Regression 10" />
-<img src="assets/graphs/deep-learning-01-keras-regression-11.png" width="49%" alt="Keras Regression 11" />
+## K-Means Customer Segmentation
 
-<img src="assets/graphs/deep-learning-01-keras-regression-12.png" width="49%" alt="Keras Regression 12" />
-<img src="assets/graphs/deep-learning-01-keras-regression-13.png" width="49%" alt="Keras Regression 13" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-01-keras-regression-14.png" width="49%" alt="Keras Regression 14" />
-<img src="assets/graphs/deep-learning-01-keras-regression-15.png" width="49%" alt="Keras Regression 15" />
+**Choose:** clearly separated customer clusters.
 
-<img src="assets/graphs/deep-learning-02-keras-classification-0.png" width="49%" alt="Keras Classification 0" />
-<img src="assets/graphs/deep-learning-02-keras-classification-1.png" width="49%" alt="Keras Classification 1" />
+---
 
-<img src="assets/graphs/deep-learning-02-keras-classification-2.png" width="49%" alt="Keras Classification 2" />
-<img src="assets/graphs/deep-learning-02-keras-classification-3.png" width="49%" alt="Keras Classification 3" />
+## DBSCAN / HDBSCAN
 
-<img src="assets/graphs/deep-learning-02-keras-classification-4.png" width="49%" alt="Keras Classification 4" />
-<img src="assets/graphs/deep-learning-02-keras-classification-5.png" width="49%" alt="Keras Classification 5" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-02-keras-classification-6.png" width="49%" alt="Keras Classification 6" />
+**Choose:** comparison showing clusters + noise points.
 
-<img src="assets/graphs/deep-learning-02-mnist-with-tensorflow-0.png" width="49%" alt="MNIST TensorFlow 0" />
-<img src="assets/graphs/deep-learning-02-mnist-with-tensorflow-1.png" width="49%" alt="MNIST TensorFlow 1" />
+---
 
-<img src="assets/graphs/deep-learning-02-mnist-with-tensorflow-2.png" width="49%" alt="MNIST TensorFlow 2" />
-<img src="assets/graphs/deep-learning-02-mnist-with-tensorflow-3.png" width="49%" alt="MNIST TensorFlow 3" />
+## PCA
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-0.png" width="49%" alt="Keras Project Exercise 0" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-1.png" width="49%" alt="Keras Project Exercise 1" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-2.png" width="49%" alt="Keras Project Exercise 2" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-3.png" width="49%" alt="Keras Project Exercise 3" />
+**Choose:** PCA projection or explained variance.
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-4.png" width="49%" alt="Keras Project Exercise 4" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-5.png" width="49%" alt="Keras Project Exercise 5" />
+---
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-6.png" width="49%" alt="Keras Project Exercise 6" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-7.png" width="49%" alt="Keras Project Exercise 7" />
+## t-SNE / UMAP
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-8.png" width="49%" alt="Keras Project Exercise 8" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-9.png" width="49%" alt="Keras Project Exercise 9" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-10.png" width="49%" alt="Keras Project Exercise 10" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-11.png" width="49%" alt="Keras Project Exercise 11" />
+**Choose:** colorful/separated cluster visualization.
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-12.png" width="49%" alt="Keras Project Exercise 12" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-13.png" width="49%" alt="Keras Project Exercise 13" />
+---
 
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-14.png" width="49%" alt="Keras Project Exercise 14" />
-<img src="assets/graphs/deep-learning-03-keras-project-exercise-15.png" width="49%" alt="Keras Project Exercise 15" />
+# 🧪 Evaluation Gallery
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-0.png" width="49%" alt="Keras Project Exercise Solutions 0" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-1.png" width="49%" alt="Keras Project Exercise Solutions 1" />
+## Confusion Matrix
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-2.png" width="49%" alt="Keras Project Exercise Solutions 2" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-3.png" width="49%" alt="Keras Project Exercise Solutions 3" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-4.png" width="49%" alt="Keras Project Exercise Solutions 4" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-5.png" width="49%" alt="Keras Project Exercise Solutions 5" />
+**⭐ Priority:** VERY HIGH
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-6.png" width="49%" alt="Keras Project Exercise Solutions 6" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-7.png" width="49%" alt="Keras Project Exercise Solutions 7" />
+---
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-8.png" width="49%" alt="Keras Project Exercise Solutions 8" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-9.png" width="49%" alt="Keras Project Exercise Solutions 9" />
+## Random Forest Performance
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-10.png" width="49%" alt="Keras Project Exercise Solutions 10" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-11.png" width="49%" alt="Keras Project Exercise Solutions 11" />
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-12.png" width="49%" alt="Keras Project Exercise Solutions 12" />
-<img src="assets/graphs/deep-learning-04-keras-project-exercise-solutions-13.png" width="49%" alt="Keras Project Exercise Solutions 13" />
+**Choose:** strongest performance comparison.
 
-<img src="assets/graphs/deep-learning-04-tensorflow-project-exercise-0.png" width="49%" alt="TensorFlow Project Exercise 0" />
-<img src="assets/graphs/deep-learning-04-tensorflow-project-exercise-1.png" width="49%" alt="TensorFlow Project Exercise 1" />
+---
 
-<img src="assets/graphs/deep-learning-05-tensorflow-project-exercise-solutions-0.png" width="49%" alt="TensorFlow Project Solutions 0" />
-<img src="assets/graphs/deep-learning-05-tensorflow-project-exercise-solutions-1.png" width="49%" alt="TensorFlow Project Solutions 1" />
+## K-Means Evaluation
 
-</details>
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** elbow method / silhouette / cluster evaluation.
+
+---
+
+## GridSearchCV
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** hyperparameter/model comparison output.
+
+---
+
+# 📝 NLP Gallery
+
+## NLP Text Analysis
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** best text-frequency, word analysis or NLP visualization.
+
+---
+
+## NLP Project
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** final project/result visualization rather than an intermediate output.
+
+---
+
+# 🎯 Recommendation Systems Gallery
+
+## Recommendation System
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** recommendation output, similarity matrix or meaningful result.
+
+---
+
+# 🧠 Deep Learning Gallery
+
+## Keras Regression
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** training/validation loss curve.
+
+---
+
+## Keras Classification
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** accuracy/loss curve.
+
+---
+
+## MNIST
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** sample predictions.
+
+---
+
+## TensorBoard
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** TensorBoard training dashboard.
 
 ---
 
 # 🚀 Hands-On Projects
 
+---
+
 ## 🌦️ Australia Weather / Rainfall Prediction
 
-Classification workflow using weather data, feature engineering, seasonal features, model training and evaluation.
+A complete classification workflow using weather data.
 
-**Key concepts:**
+### Workflow
 
-- Data preprocessing
-- Date feature engineering
-- Season extraction
-- Classification
-- Random Forest
-- Model evaluation
+```text
+Weather Dataset
+      ↓
+Data Cleaning
+      ↓
+Feature Engineering
+      ↓
+Date Processing
+      ↓
+Season Extraction
+      ↓
+Model Training
+      ↓
+Random Forest
+      ↓
+Evaluation
+```
+
+### Key Concepts
+
+* Data preprocessing
+* Feature engineering
+* Date feature extraction
+* Seasonal analysis
+* Classification
+* Random Forest
+* Model evaluation
+
+### ⭐ Project Image
+
+**Choose:** your final Australia Weather prediction visualization.
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
 
 ---
 
 ## 🚕 Taxi Tip / Regression Trees
 
-Regression workflow using decision-tree based prediction and evaluation.
+A regression workflow based on taxi data.
 
-**Key concepts:**
+### Concepts
 
-- Regression Trees
-- Feature preparation
-- Prediction
-- Regression metrics
-- Model evaluation
+* Regression Trees
+* Feature preparation
+* Model training
+* Prediction
+* Regression metrics
+
+### ⭐ Project Image
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** strongest prediction/performance graph.
 
 ---
 
 ## 💳 Credit Card Fraud Detection
 
-Classification experiments involving Decision Trees and SVM concepts.
+Classification experiments using tree-based and SVM approaches.
 
-**Key concepts:**
+### Concepts
 
-- Classification
-- Decision Trees
-- SVM
-- Fraud detection workflow
-- Model evaluation
+* Classification
+* Decision Trees
+* SVM
+* Fraud detection
+* Model evaluation
+
+### ⭐ Project Image
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** confusion matrix or fraud classification performance.
 
 ---
 
 ## 👥 Customer Segmentation
 
-K-Means based clustering workflow for customer segmentation.
+K-Means clustering applied to customer segmentation.
 
-**Key concepts:**
+### Concepts
 
-- Unsupervised Learning
-- K-Means
-- Cluster analysis
-- Customer segmentation
-- Visualization
+* Unsupervised Learning
+* K-Means
+* Clustering
+* Customer segmentation
+* Visualization
+
+### ⭐ Project Image
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** the clearest customer cluster visualization.
 
 ---
 
 ## 📞 911 Calls Analysis
 
-Exploratory data analysis, time-based analysis and visualization on emergency-call data.
+Exploratory data analysis of emergency call data.
+
+### Concepts
+
+* EDA
+* Time-based analysis
+* Data visualization
+* Pattern analysis
+
+### ⭐ Project Image
+
+```text
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** best time-series or category-based visualization.
 
 ---
 
@@ -828,87 +1263,134 @@ Exploratory data analysis, time-based analysis and visualization on emergency-ca
 
 Finance-oriented exploratory analysis and visualization.
 
----
-
-## 🧪 Practice & Capstone Work
-
-Additional notebooks combining preprocessing, modeling, evaluation and visualization.
-
----
-
-# 📂 Repository Structure
+### ⭐ Project Image
 
 ```text
-machine_learning_with_python/
+![](YOUR_IMAGE_PATH_HERE)
+```
+
+**Choose:** strongest financial trend/correlation visualization.
+
+---
+
+# 🏆 Project Portfolio
+
+| Project                      | Domain              | Techniques                    |
+| ---------------------------- | ------------------- | ----------------------------- |
+| Australia Weather Prediction | Machine Learning    | Classification, Random Forest |
+| Customer Segmentation        | Unsupervised ML     | K-Means                       |
+| Credit Card Fraud Detection  | ML                  | Decision Tree, SVM            |
+| Taxi Tip Prediction          | Regression          | Regression Trees              |
+| 911 Calls Analysis           | Data Science        | EDA, Visualization            |
+| Finance Data Analysis        | Data Science        | EDA, Visualization            |
+| NLP Projects                 | NLP                 | Text Processing, NLTK         |
+| Recommendation System        | Recommender Systems | Similarity & Recommendations  |
+| Deep Learning Projects       | Deep Learning       | TensorFlow, Keras             |
+| MNIST Classification         | Computer Vision     | Neural Networks               |
+
+---
+
+# 📁 Repository Structure
+
+```text
+Machine_Learning_with_Python/
 │
-├── 0.1_Simple-Linear-Regression.ipynb
-├── 02.Mulitple-Linear-Regression.ipynb
-├── 03.Logistic_Regression.ipynb
-├── 04.Multi-class_Classification.ipynb
-├── 05.Decision_trees.ipynb
-├── 06.Regression_Trees_Taxi_Tip.ipynb
-├── 07.decision_tree_svm_ccFraud.ipynb
-├── 08.KNN_Classification.ipynb
-├── 09.Random_ Forests _XGBoost (4).ipynb
-├── 10.K-Means-Customer-Seg.ipynb
-├── 11.Comparing_DBScan_HDBScan.ipynb
-├── 12.PCA.ipynb
-├── 13.tSNE_UMAP.ipynb
-├── 14.Evaluating_Classification_Models.ipynb
-├── 15.Evaluating_random_forest.ipynb
-├── 16.Evaluating_k-means_clustering.ipynb
-├── 17.Regularization_in_LinearRegression.ipynb
-├── 18.ML_Pipelines_and_GridSearchCV.ipynb
-├── 19.Practice_Project.ipynb
-├── 20.FinalProject_AUSWeather.ipynb
+├── 📓 0.1_Simple-Linear-Regression.ipynb
+├── 📓 02.Mulitple-Linear-Regression.ipynb
+├── 📓 03.Logistic_Regression.ipynb
+├── 📓 04.Multi-class_Classification.ipynb
+├── 📓 05.Decision_trees.ipynb
+├── 📓 06.Regression_Trees_Taxi_Tip.ipynb
+├── 📓 07.decision_tree_svm_ccFraud.ipynb
+├── 📓 08.KNN_Classification.ipynb
+├── 📓 09.Random_Forests_XGBoost.ipynb
+├── 📓 10.K-Means-Customer-Seg.ipynb
+├── 📓 11.Comparing_DBScan_HDBScan.ipynb
+├── 📓 12.PCA.ipynb
+├── 📓 13.tSNE_UMAP.ipynb
+├── 📓 14.Evaluating_Classification_Models.ipynb
+├── 📓 15.Evaluating_random_forest.ipynb
+├── 📓 16.Evaluating_k-means_clustering.ipynb
+├── 📓 17.Regularization_in_LinearRegression.ipynb
+├── 📓 18.ML_Pipelines_and_GridSearchCV.ipynb
+├── 📓 19.Practice_Project.ipynb
+├── 📓 20.FinalProject_AUSWeather.ipynb
 │
-├── assets/
-│   └── graphs/
-│       └── 160 notebook-generated visual outputs
+├── 📂 Deep Learning/
+│   ├── TensorFlow
+│   └── Keras
 │
-└── machile_learning_basic to advance/
-    └── Refactored_Py_DS_ML_Bootcamp-master/
-        │
-        ├── 11-Linear-Regression/
-        ├── 13-Logistic-Regression/
-        ├── 14-K-Nearest-Neighbors/
-        ├── 15-Decision-Trees-and-Random-Forests/
-        ├── 16-Support-Vector-Machines/
-        ├── 17-K-Means-Clustering/
-        ├── 18-Principal-Component-Analysis/
-        ├── 19-Recommender-Systems/
-        ├── 20-Natural-Language-Processing/
-        ├── 21-Big-Data-and-Spark/
-        └── 22-Deep Learning/
+├── 📂 NLP/
+│
+├── 📂 Recommendation Systems/
+│
+├── 📂 Big Data and Spark/
+│
+├── 📂 Data Visualization/
+│
+├── 📂 assets/
+│   └── 📂 graphs/
+│
+└── 📄 README.md
 ```
 
 ---
 
-# 🏆 Skills Demonstrated
+# 💡 Skills Demonstrated
 
-### 🐍 Python & Data
+### Programming
 
-`Python` · `NumPy` · `Pandas` · `Data Cleaning` · `EDA` · `Statistics` · `Data Visualization`
+* Python
+* Object-Oriented Programming
+* Functions
+* File Handling
+* Data Structures
 
-### 🤖 Classical Machine Learning
+### Data Science
 
-`Regression` · `Classification` · `Decision Trees` · `Random Forest` · `SVM` · `KNN` · `XGBoost`
+* NumPy
+* Pandas
+* Data Cleaning
+* EDA
+* Feature Engineering
+* Statistical Analysis
+* Visualization
 
-### 🔍 Unsupervised Machine Learning
+### Machine Learning
 
-`K-Means` · `DBSCAN` · `HDBSCAN` · `PCA` · `t-SNE` · `UMAP`
+* Regression
+* Classification
+* Clustering
+* Dimensionality Reduction
+* Ensemble Learning
+* Model Evaluation
+* Cross Validation
+* Hyperparameter Tuning
+* ML Pipelines
 
-### 🧪 Model Engineering
+### Deep Learning
 
-`Feature Scaling` · `Cross Validation` · `StratifiedKFold` · `Pipelines` · `GridSearchCV` · `Regularization` · `Model Selection`
+* Artificial Neural Networks
+* TensorFlow
+* Keras
+* Model Training
+* Model Evaluation
+* TensorBoard
 
-### 📝 Advanced ML
+### NLP
 
-`Recommendation Systems` · `NLP` · `Apache Spark`
+* Text preprocessing
+* Tokenization
+* NLP feature extraction
+* NLTK
+* Text classification
 
-### 🧠 Deep Learning
+### Data Engineering / Big Data
 
-`TensorFlow` · `Keras` · `ANN` · `MNIST` · `TensorBoard`
+* SQL
+* ETL concepts
+* Apache Spark
+* Large-scale data processing
 
 ---
 
@@ -916,189 +1398,214 @@ machine_learning_with_python/
 
 ```text
 Python
-   ↓
-NumPy
-   ↓
-Pandas
-   ↓
+  ↓
+NumPy & Pandas
+  ↓
 Data Visualization
-   ↓
+  ↓
 Statistics
-   ↓
-Data Preprocessing
-   ↓
-Machine Learning Fundamentals
-   ↓
-Regression
-   ↓
-Classification
-   ↓
-Decision Trees
-   ↓
-Random Forest
-   ↓
-SVM
-   ↓
-KNN
-   ↓
-XGBoost
-   ↓
-K-Means
-   ↓
-DBSCAN / HDBSCAN
-   ↓
-PCA
-   ↓
-t-SNE / UMAP
-   ↓
+  ↓
+Machine Learning
+  ↓
+Supervised Learning
+  ↓
+Unsupervised Learning
+  ↓
 Model Evaluation
-   ↓
-Cross Validation
-   ↓
-GridSearchCV
-   ↓
+  ↓
+Hyperparameter Tuning
+  ↓
 ML Pipelines
-   ↓
-Regularization
-   ↓
-Recommendation Systems
-   ↓
+  ↓
 NLP
-   ↓
-Apache Spark
-   ↓
+  ↓
+Recommendation Systems
+  ↓
 Deep Learning
-   ↓
-TensorFlow
-   ↓
-Keras
-   ↓
-ANN
-   ↓
-TensorBoard
+  ↓
+TensorFlow & Keras
+  ↓
+Real-World Projects
 ```
 
 ---
 
-# 🔬 Learning Philosophy
+# 🎯 Learning Philosophy
 
-> **Learn → Understand → Implement → Experiment → Evaluate → Compare → Optimize → Build → Apply**
+> **Don't just learn algorithms — learn how to solve problems with them.**
 
-The goal is to move beyond memorizing algorithms toward solving data problems end-to-end:
+My approach focuses on:
 
 ```text
-Understand the Problem
-        ↓
-Collect / Load Data
-        ↓
-Clean the Data
-        ↓
-Explore the Data
-        ↓
-Visualize Patterns
-        ↓
-Engineer Features
-        ↓
-Train Models
-        ↓
-Evaluate Models
-        ↓
-Tune Hyperparameters
-        ↓
-Compare Models
-        ↓
-Interpret Results
-        ↓
-Build Practical Solutions
+Understand
+    ↓
+Implement
+    ↓
+Visualize
+    ↓
+Evaluate
+    ↓
+Compare
+    ↓
+Optimize
+    ↓
+Apply to Real Problems
 ```
 
 ---
 
 # 🚀 Future Roadmap
 
-- Advanced Feature Engineering
-- Advanced Ensemble Learning
-- Time Series Forecasting
-- Transformers
-- BERT
-- Computer Vision
-- CNNs
-- RNNs
-- LSTMs
-- FastAPI
-- Docker
-- MLflow
-- MLOps
-- Cloud ML
-- Model Deployment
-- Production-grade ML Systems
+The next stage of this journey focuses on building production-oriented AI and Data Science systems.
+
+### Next Goals
+
+* Advanced Machine Learning
+* Feature Engineering
+* Advanced NLP
+* Transformers
+* Large Language Models
+* Generative AI
+* MLOps
+* Model Deployment
+* FastAPI
+* Docker
+* Cloud Deployment
+* AWS
+* Production ML Pipelines
+* Real-world end-to-end projects
 
 ---
 
 # 👩‍💻 About Me
 
-Hi! I’m **Divya Upadhyay**, a Computer Science student specializing in Artificial Intelligence.
+Hi! I'm **Divya Upadhyay**, a final-year **BTech Computer Science & Engineering student specializing in Artificial Intelligence**.
 
-I am building my foundation across:
+I am passionate about:
 
-- Data Science
-- Machine Learning
-- Deep Learning
-- Natural Language Processing
-- Data Analytics
-- Artificial Intelligence
-- Practical AI Systems
+* Data Science
+* Machine Learning
+* Artificial Intelligence
+* Deep Learning
+* NLP
+* Generative AI
+* Problem Solving
+* Building real-world projects
 
-I enjoy turning datasets into experiments, models and practical problem-solving workflows, with a strong focus on continuous learning and building real projects.
-
----
-
-# 🎯 Career Focus
-
-This portfolio is aligned with practical roles in:
-
-- Data Science
-- Machine Learning
-- AI Engineering
-- Data Analytics
-- Applied AI
-- Machine Learning Engineering
-
-My goal is to continuously strengthen my technical skills through **real-world projects, problem solving, experimentation and production-oriented thinking**.
+I enjoy transforming raw data into meaningful insights and building machine learning solutions that solve practical problems.
 
 ---
 
-# 🚀 Journey Continues
+# 💼 Career Focus
+
+I am currently focused on opportunities in:
+
+* Data Science
+* Machine Learning
+* AI Engineering
+* Data Analytics
+* ML Engineering
+* AI/ML Internships
+* Remote International Opportunities
+
+### Current Focus
 
 ```text
-LEARNING
-   ↓
-EXPERIMENTING
-   ↓
-BUILDING
-   ↓
-PROBLEM SOLVING
-   ↓
-MACHINE LEARNING
-   ↓
-ARTIFICIAL INTELLIGENCE
-   ↓
-REAL-WORLD PROJECTS
-   ↓
-PRODUCTION SYSTEMS
+Data Science
+      +
+Machine Learning
+      +
+Deep Learning
+      +
+Generative AI
+      +
+Real-World Projects
+      =
+AI / Data Science Career
 ```
 
 ---
 
-<p align="center">
-<b>🤖 Learning Machine Learning. Building with Data. Growing into AI.</b>
-</p>
+# 🌟 Why This Repository Matters
+
+This repository represents more than a collection of notebooks.
+
+It demonstrates my ability to:
+
+✅ Understand ML concepts
+✅ Implement algorithms from scratch/practical workflows
+✅ Work with real datasets
+✅ Perform exploratory analysis
+✅ Build predictive models
+✅ Compare multiple algorithms
+✅ Evaluate model performance
+✅ Tune hyperparameters
+✅ Build ML pipelines
+✅ Visualize results
+✅ Work with NLP
+✅ Explore Recommendation Systems
+✅ Work with TensorFlow & Keras
+✅ Build project-based solutions
+
+---
+
+# 📊 Learning Snapshot
+
+| Area                   | Status |
+| ---------------------- | ------ |
+| Python                 | ✅      |
+| NumPy                  | ✅      |
+| Pandas                 | ✅      |
+| Data Visualization     | ✅      |
+| Regression             | ✅      |
+| Classification         | ✅      |
+| Decision Trees         | ✅      |
+| Random Forest          | ✅      |
+| KNN                    | ✅      |
+| SVM                    | ✅      |
+| K-Means                | ✅      |
+| DBSCAN / HDBSCAN       | ✅      |
+| PCA                    | ✅      |
+| t-SNE / UMAP           | ✅      |
+| Model Evaluation       | ✅      |
+| Cross Validation       | ✅      |
+| GridSearchCV           | ✅      |
+| ML Pipelines           | ✅      |
+| NLP                    | ✅      |
+| Recommendation Systems | ✅      |
+| TensorFlow             | ✅      |
+| Keras                  | ✅      |
+| Deep Learning          | ✅      |
+| Apache Spark           | 🔄     |
+| Advanced GenAI         | 🔄     |
+| MLOps                  | 🔄     |
+
+---
+
+# 🔥 Journey Continues
+
+This repository is continuously evolving as I move from:
+
+**Learning → Practicing → Building → Deploying → Engineering**
+
+> 🚀 **The goal is not to know every algorithm.
+> The goal is to know how to choose, evaluate and apply the right approach to the right problem.**
+
+---
 
 <p align="center">
-⭐ If you find this repository useful, consider giving it a star!
-</p>
 
-<p align="center">
-<i>The journey from learning algorithms to building intelligent systems continues...</i>
-</p>
+### ⭐ If you find this repository useful, consider giving it a star!
 
+### 🤝 Let's Learn, Build and Grow Together.
+
+</p>
+```
+
+**Important:** `YOUR_IMAGE_PATH_HERE` ko tum apne actual image path se replace karna. For example:
+
+```markdown
+![](assets/graphs/my_best_heatmap.png)
+```
+
+**Meri recommendation:** README ke har section mein **1 strongest image** rakho, 10–20 images ek saath nahi. Recruiter ke liye clean presentation zyada impressive lagegi. ખાસ तौर पर **Decision Tree, Confusion Matrix Heatmap, K-Means Clusters, PCA/t-SNE, Random Forest Feature Importance, GridSearchCV, NLP result, Recommendation result, aur TensorBoard** wali images priority pe lagana.
