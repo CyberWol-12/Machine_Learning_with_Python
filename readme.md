@@ -1,8 +1,3 @@
-Bilkul Divya ❤️ **ab proper final version** de rahi hoon — **ONE single Markdown code block**, clean syntax, ML + DL + NLP + Recommendation Systems + Spark logos, aur **repository ke actual 160 saved visual outputs** included hain.
-
-**Important:** `README.md` ke saath tumhare repo me `assets/graphs/` folder bhi hona chahiye, warna GitHub par images broken dikhenge.
-
-````markdown
 # 🤖 Machine Learning with Python — From Fundamentals to Deep Learning
 
 <p align="center">
@@ -1106,4 +1101,4 @@ PRODUCTION SYSTEMS
 <p align="center">
 <i>The journey from learning algorithms to building intelligent systems continues...</i>
 </p>
-````
+
