@@ -1,14 +1,24 @@
+Bilkul — problem ye thi ki tumhare Markdown mein **`<p>`, `<img>`, `#`, `*`, links etc. unnecessarily escape ho gaye the**, isliye GitHub par raw/ajeeb text dikh raha tha.
+
+Neeche **ek hi complete Markdown code block** hai. Isko **exactly copy karke `README.md`** mein paste karna. Maine upper portion ko proper standard GitHub Markdown mein fix kiya hai, aur graphs/flowcharts ko bhi clean rakha hai. **Koi image file add nahi ki hai**; pipeline ke liye proper Mermaid diagram diya hai.
+
 ````markdown
 # 🤖 Machine Learning with Python — From Fundamentals to Deep Learning
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/Machine%20Learning-Hands--On-0A66C2?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
 <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Keras-Neural%20Networks-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+
 <img src="https://img.shields.io/badge/NLP-NLTK-4B8BBE?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Apache%20Spark-Big%20Data-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
 
 </p>
@@ -121,33 +131,53 @@ O --> P[Deployment Ready Model]
 * [Machine Learning Foundations](#-machine-learning-foundations)
 * [Data Preprocessing](#-data-preprocessing)
 * [Exploratory Data Analysis](#-exploratory-data-analysis)
-* [Data Visualization](#-data-visualization)
+* [Correlation Heatmap](#-correlation-heatmap)
 * [Supervised Learning](#-supervised-learning)
 * [Regression](#-regression)
 * [Classification](#-classification)
+* [Logistic Regression](#-1️⃣-logistic-regression)
+* [K-Nearest Neighbors](#-2️⃣-k-nearest-neighbors)
+* [Decision Trees](#-3️⃣-decision-trees)
+* [Random Forest](#-4️⃣-random-forest)
+* [Support Vector Machines](#-5️⃣-support-vector-machines)
+* [XGBoost](#-6️⃣-xgboost)
 * [Ensemble Learning](#-ensemble-learning)
 * [Unsupervised Learning](#-unsupervised-learning)
+* [K-Means Clustering](#-k-means-clustering)
+* [DBSCAN](#-dbscan)
+* [HDBSCAN](#-hdbscan)
 * [Dimensionality Reduction](#-dimensionality-reduction)
+* [t-SNE & UMAP](#-tsne--umap)
 * [Model Evaluation](#-model-evaluation--optimization)
 * [Cross Validation](#-cross-validation)
 * [Hyperparameter Tuning](#-hyperparameter-tuning)
-* [Machine Learning Pipelines](#️-machine-learning-pipelines)
+* [Machine Learning Pipelines](#-machine-learning-pipelines)
 * [Recommendation Systems](#-recommendation-systems)
 * [Natural Language Processing](#-natural-language-processing)
 * [Big Data & Apache Spark](#-big-data--apache-spark)
 * [Deep Learning](#-deep-learning)
 * [TensorFlow & Keras](#-tensorflow--keras)
 * [TensorBoard](#-tensorboard)
-* [Visual Gallery](#-visual-gallery)
+* [Data Visualization](#-data-visualization)
 * [Hands-On Projects](#-hands-on-projects)
+* [Complete ML Portfolio Map](#-complete-ml-portfolio-map)
+* [End-to-End ML Workflow](#-end-to-end-ml-workflow)
+* [Model Selection Framework](#-model-selection-framework)
+* [Important Concepts Practiced](#-important-concepts-practiced)
 * [Algorithms at a Glance](#-algorithms-at-a-glance)
 * [Skills Demonstrated](#-skills-demonstrated)
 * [Repository Structure](#-repository-structure)
 * [Learning Progression](#-learning-progression)
+* [Learning Philosophy](#-learning-philosophy)
 * [Real-World Applications](#-real-world-applications)
 * [Future Roadmap](#-future-roadmap)
 * [Career Focus](#-career-focus)
 * [About Me](#-about-me)
+* [Current Technical Focus](#-current-technical-focus)
+* [What I Want to Build](#-what-i-want-to-build)
+* [Repository Highlights](#-repository-highlights)
+* [The Bigger Picture](#-the-bigger-picture)
+* [Final Perspective](#-final-perspective)
 * [Journey Continues](#-journey-continues)
 
 ---
@@ -167,9 +197,13 @@ O --> P[Deployment Ready Model]
 <p align="center">
 
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
 
 </p>
@@ -179,6 +213,7 @@ O --> P[Deployment Ready Model]
 <p align="center">
 
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
 <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge" />
 
 </p>
@@ -207,7 +242,7 @@ O --> P[Deployment Ready Model]
 
 </p>
 
-## 💻 Development & Tools
+## 💻 Development & Environment
 
 <p align="center">
 
@@ -229,9 +264,9 @@ O --> P[Deployment Ready Model]
 | Model Evaluation         | Classification & Regression Metrics           |     ✅    |
 | Cross Validation         | K-Fold, StratifiedKFold                       |     ✅    |
 | Optimization             | GridSearchCV, Hyperparameter Tuning           |     ✅    |
-| ML Pipelines             | Pipeline, Scaling, PCA, Modeling              |     ✅    |
+| ML Pipelines             | Pipeline, Scaling, PCA, Model Training        |     ✅    |
 | Regularization           | Linear Regression Regularization              |     ✅    |
-| Recommendation Systems   | Similarity & Recommendation Concepts          |     ✅    |
+| Recommendation           | Recommender Systems                           |     ✅    |
 | NLP                      | NLTK, Text Processing                         |     ✅    |
 | Big Data                 | Apache Spark, RDDs                            |     ✅    |
 | Deep Learning            | TensorFlow, Keras, ANN                        |     ✅    |
@@ -241,15 +276,14 @@ O --> P[Deployment Ready Model]
 
 # 🧱 Machine Learning Foundations
 
-The repository starts with the fundamental concepts required to understand Machine Learning systems.
+This repository starts with the fundamental concepts required to understand how Machine Learning systems work.
 
 ### Core Concepts
 
 * Machine Learning fundamentals
 * Supervised Learning
 * Unsupervised Learning
-* Features
-* Target Variables
+* Features and Target Variables
 * Training Data
 * Testing Data
 * Validation Data
@@ -281,7 +315,32 @@ Data preprocessing is one of the most important stages of every Machine Learning
 * Standardization
 * Normalization
 * Train/Test Split
-* Preparing datasets for ML models
+* Dataset preparation
+* Preparing features for ML models
+
+### Preprocessing Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Inspection
+     ↓
+Missing Values
+     ↓
+Duplicates
+     ↓
+Data Cleaning
+     ↓
+Feature Transformation
+     ↓
+Encoding
+     ↓
+Scaling
+     ↓
+Train / Test Split
+     ↓
+Machine Learning Model
+```
 
 ---
 
@@ -298,42 +357,30 @@ EDA is used to understand datasets before building Machine Learning models.
 * Outlier analysis
 * Feature relationships
 * Grouped analysis
-* Visual exploration
 * Pattern discovery
+* Data visualization
+* Feature understanding
 
----
+### EDA Workflow
 
-# 📊 Data Visualization
+```mermaid
+flowchart LR
 
-Visualization is integrated throughout the Machine Learning workflow.
-
-### Visualization Tools
-
-* Matplotlib
-* Seaborn
-* Plotly
-* Pandas Visualization
-
-### Visualization Techniques
-
-* Histograms
-* Box Plots
-* Scatter Plots
-* Line Plots
-* Bar Charts
-* Heatmaps
-* Correlation Matrices
-* Distribution Plots
-* Interactive Visualizations
-* Geographical Visualizations
-* Model Evaluation Visualizations
-* Cluster Visualizations
+A[Dataset] --> B[Inspection]
+B --> C[Statistics]
+C --> D[Distribution Analysis]
+D --> E[Correlation]
+E --> F[Outlier Analysis]
+F --> G[Visualization]
+G --> H[Feature Understanding]
+H --> I[Model Preparation]
+```
 
 ---
 
 # 🔥 Correlation Heatmap
 
-Correlation analysis helps understand relationships between numerical features.
+Correlation analysis helps identify relationships between numerical variables.
 
 ```python
 import seaborn as sns
@@ -352,7 +399,7 @@ plt.title("Feature Correlation Heatmap")
 plt.show()
 ```
 
-### Workflow
+### Typical Workflow
 
 ```text
 Dataset
@@ -374,7 +421,7 @@ Model Building
 
 # 🎯 Supervised Learning
 
-Supervised Learning is explored through both regression and classification problems.
+Supervised Learning is explored through both **Regression** and **Classification** problems.
 
 ```mermaid
 flowchart TD
@@ -413,6 +460,7 @@ Regression models are used when the target variable is continuous.
 * Residuals
 * Regression assumptions
 * Model evaluation
+* Regularization concepts
 
 ### Metrics
 
@@ -427,16 +475,17 @@ R² Score
 
 # 🌳 Regression Trees
 
-Decision-tree-based regression is explored for predicting continuous outcomes.
+Decision Tree Regression is explored for predicting continuous outcomes.
 
 ### Concepts
 
 * Splitting
-* Decision Nodes
-* Leaf Nodes
-* Tree Depth
-* Predictions
-* Regression Evaluation
+* Decision nodes
+* Leaf nodes
+* Tree depth
+* Feature selection
+* Prediction
+* Regression evaluation
 
 ---
 
@@ -444,7 +493,7 @@ Decision-tree-based regression is explored for predicting continuous outcomes.
 
 Classification is used when the target variable belongs to one or more categories.
 
-### Algorithms
+### Algorithms Covered
 
 * Logistic Regression
 * K-Nearest Neighbors
@@ -460,16 +509,17 @@ Classification is used when the target variable belongs to one or more categorie
 ### Covered
 
 * Binary Classification
-* Multi-Class Classification
+* Multi-class Classification
 * Probability Prediction
 * Decision Boundaries
 * Classification Metrics
+* Model Evaluation
 
 ---
 
 # 2️⃣ K-Nearest Neighbors
 
-KNN predicts observations based on nearby data points.
+KNN predicts a sample based on nearby observations.
 
 ### Covered
 
@@ -478,22 +528,23 @@ KNN predicts observations based on nearby data points.
 * Feature scaling
 * Classification
 * Model evaluation
+* Model comparison
 
 ---
 
 # 3️⃣ Decision Trees
 
-Decision Trees learn a sequence of decision rules.
+Decision Trees learn a sequence of decision rules from data.
 
-### Concepts
+### Covered
 
-* Root Node
-* Internal Nodes
-* Leaf Nodes
+* Root node
+* Internal nodes
+* Leaf nodes
 * Entropy
-* Gini Impurity
-* Information Gain
-* Tree Depth
+* Gini impurity
+* Information gain
+* Tree depth
 * Classification
 * Regression
 
@@ -501,17 +552,18 @@ Decision Trees learn a sequence of decision rules.
 
 # 4️⃣ Random Forest
 
-Random Forest combines multiple decision trees to improve generalization.
+Random Forest combines multiple decision trees to improve model generalization.
 
 ### Covered
 
-* Ensemble Learning
+* Ensemble learning
 * Bagging
-* Random Feature Selection
-* Feature Importance
+* Random feature selection
+* Feature importance
 * Classification
 * Regression
-* Model Comparison
+* Model comparison
+* Evaluation
 
 ---
 
@@ -522,25 +574,27 @@ SVM focuses on finding an optimal decision boundary with maximum margin.
 ### Covered
 
 * Hyperplanes
-* Support Vectors
+* Support vectors
 * Margins
-* Kernel Concepts
+* Kernel concepts
 * Classification
-* Feature Scaling
+* Feature scaling
+* Model evaluation
 
 ---
 
 # 6️⃣ XGBoost
 
-Gradient Boosting is explored as an advanced ensemble learning approach.
+XGBoost is explored as an advanced gradient boosting ensemble technique.
 
 ### Concepts
 
-* Boosting
-* Sequential Learners
-* Weak Learners
-* Ensemble Prediction
-* Hyperparameter Optimization
+* Gradient boosting
+* Sequential learners
+* Weak learners
+* Ensemble prediction
+* Feature importance
+* Hyperparameter optimization
 
 ---
 
@@ -557,17 +611,20 @@ A --> C[Boosting]
 B --> D[Random Forest]
 C --> E[XGBoost]
 
-D --> F[Multiple Models]
-E --> F
+D --> F[Multiple Decision Trees]
+E --> G[Sequential Weak Learners]
 
-F --> G[Improved Generalization]
+F --> H[Ensemble Prediction]
+G --> H
+
+H --> I[Improved Generalization]
 ```
 
 ---
 
 # 🔍 Unsupervised Learning
 
-Unsupervised Learning focuses on discovering hidden patterns when labeled targets are unavailable.
+Unsupervised Learning focuses on discovering hidden patterns when labeled target variables are unavailable.
 
 ### Covered
 
@@ -586,70 +643,103 @@ Unsupervised Learning focuses on discovering hidden patterns when labeled target
 
 * Centroids
 * Distance
-* Cluster Assignment
-* Iterative Optimization
+* Cluster assignment
+* Iterative optimization
 * Choosing K
-* Cluster Interpretation
-* Customer Segmentation
+* Cluster interpretation
+* Customer segmentation
+* Visualization
+
+### K-Means Workflow
+
+```mermaid
+flowchart LR
+
+A[Dataset]
+--> B[Feature Preparation]
+--> C[Scaling]
+--> D[Choose K]
+--> E[K-Means]
+--> F[Cluster Assignment]
+--> G[Cluster Analysis]
+--> H[Visualization]
+```
 
 ---
 
 # 🔵 DBSCAN
 
-Density-based clustering for discovering groups of arbitrary shapes.
+DBSCAN is a density-based clustering algorithm capable of discovering clusters of different shapes.
 
 ### Concepts
 
-* Core Points
-* Border Points
+* Core points
+* Border points
 * Noise
 * Density
 * Neighborhoods
-* Outlier Detection
+* Outlier detection
 
 ---
 
 # 🟢 HDBSCAN
 
-An advanced density-based clustering approach.
+HDBSCAN is explored as an advanced density-based clustering technique.
 
 ### Concepts
 
-* Hierarchical Density Clustering
-* Variable-Density Clusters
-* Noise Handling
-* Cluster Discovery
+* Hierarchical density clustering
+* Variable-density clusters
+* Noise handling
+* Cluster discovery
 
 ---
 
 # 📐 Dimensionality Reduction
 
-Dimensionality reduction transforms high-dimensional data into fewer dimensions while preserving useful information.
+Dimensionality Reduction transforms high-dimensional data into fewer dimensions while attempting to preserve useful information.
+
+---
 
 ## PCA — Principal Component Analysis
 
 ### Covered
 
-* Principal Components
+* Principal components
 * Variance
-* Explained Variance
-* Feature Transformation
-* Dimensionality Reduction
+* Explained variance
+* Feature transformation
+* Dimensionality reduction
 * Visualization
-* PCA + ML Pipelines
+* PCA + Machine Learning pipelines
+
+### PCA Workflow
+
+```mermaid
+flowchart LR
+
+A[High Dimensional Data]
+--> B[Standardization]
+--> C[Covariance Structure]
+--> D[Principal Components]
+--> E[Explained Variance]
+--> F[Reduced Dimensions]
+--> G[Visualization / ML Model]
+```
 
 ---
 
 # 🌀 t-SNE & UMAP
 
-Used for visual exploration of high-dimensional datasets.
+t-SNE and UMAP are explored for visual analysis of high-dimensional data.
 
 ### Applications
 
-* Cluster Visualization
-* Pattern Discovery
-* Feature-Space Exploration
-* High-Dimensional Data Analysis
+* Cluster visualization
+* Pattern discovery
+* Feature-space exploration
+* High-dimensional data analysis
+* Visual representation of complex datasets
 
 ---
 
@@ -681,7 +771,23 @@ ROC-AUC Concepts
 MAE
 MSE
 RMSE
-R²
+R² Score
+```
+
+---
+
+## 🔍 Model Evaluation Workflow
+
+```mermaid
+flowchart TD
+
+A[Trained Model]
+--> B[Predictions]
+--> C[Evaluation Metrics]
+--> D[Cross Validation]
+--> E[Model Comparison]
+--> F[Hyperparameter Tuning]
+--> G[Best Model]
 ```
 
 ---
@@ -693,7 +799,8 @@ Cross-validation provides a more reliable estimate of model performance.
 ```mermaid
 flowchart LR
 
-A[Dataset] --> B[Split into Folds]
+A[Dataset]
+--> B[Split into Folds]
 
 B --> C[Fold 1]
 B --> D[Fold 2]
@@ -710,12 +817,12 @@ G --> H
 H --> I[Average Performance]
 ```
 
-### Cross-Validation Techniques
+### Techniques
 
 * K-Fold Cross Validation
 * StratifiedKFold
-* Model Comparison
-* Reliable Performance Estimation
+* Model comparison
+* Performance estimation
 
 ---
 
@@ -745,50 +852,51 @@ param_grid = {
 
 # ⚙️ Machine Learning Pipelines
 
-Machine Learning pipelines connect preprocessing and modeling steps into a reproducible workflow.
+Machine Learning Pipelines connect preprocessing and modeling steps into a reproducible workflow.
 
-## 🔄 End-to-End Pipeline
+## 🚀 ML Pipeline Architecture
 
 ```mermaid
 flowchart LR
 
-A[Raw Data]
---> B[Train/Test Split]
-
-B --> C[Preprocessing]
-C --> D[Feature Scaling]
-D --> E[PCA]
-
-E --> F[ML Model]
-F --> G[Cross Validation]
-G --> H[GridSearchCV]
-
-H --> I[Best Parameters]
-I --> J[Best Model]
-J --> K[Evaluation]
+A[Raw Dataset]
+--> B[Train / Test Split]
+--> C[Preprocessing]
+--> D[Feature Scaling]
+--> E[PCA]
+--> F[ML Model]
+--> G[Cross Validation]
+--> H[GridSearchCV]
+--> I[Best Parameters]
+--> J[Final Model]
+--> K[Predictions]
+--> L[Evaluation]
 ```
-
-## 🖼️ Pipeline Visualization
-
-> Add your generated pipeline image here:
-
-```text
-assets/ml-pipeline.png
-```
-
-<p align="center">
-  <img src="assets/ml-pipeline.png" width="950" alt="Machine Learning Pipeline"/>
-</p>
 
 ### Pipeline Benefits
 
 * Reproducibility
 * Cleaner workflows
 * Reduced data leakage
-* Easier experimentation
 * Consistent preprocessing
-* Better model selection
-* Production-oriented workflow
+* Easier experimentation
+* Hyperparameter optimization
+* Better production readiness
+
+### Example Pipeline Concept
+
+```python
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.neighbors import KNeighborsClassifier
+
+pipeline = Pipeline([
+    ("scaler", StandardScaler()),
+    ("pca", PCA()),
+    ("knn", KNeighborsClassifier())
+])
+```
 
 ---
 
@@ -798,12 +906,12 @@ Recommendation Systems are explored as an important real-world Machine Learning 
 
 ### Topics
 
-* Recommendation System Fundamentals
-* Similarity-Based Recommendation
-* User-Item Relationships
-* Personalized Recommendation Concepts
-* Ranking
-* Recommendation Workflows
+* Recommendation System fundamentals
+* Similarity-based recommendation
+* User-item relationships
+* Personalized recommendation concepts
+* Recommendation workflows
+* Ranking concepts
 
 ---
 
@@ -828,9 +936,9 @@ G --> H[User Feedback]
 H --> C
 ```
 
-### Applications
+### Real-World Applications
 
-* E-Commerce
+* E-commerce
 * Movies
 * Music
 * Social Media
@@ -850,14 +958,12 @@ flowchart LR
 
 A[Raw Text]
 --> B[Text Cleaning]
-
-B --> C[Tokenization]
-C --> D[Normalization]
-D --> E[Stopword Handling]
-
-E --> F[Feature Extraction]
-F --> G[ML Model]
-G --> H[Prediction]
+--> C[Tokenization]
+--> D[Normalization]
+--> E[Stopword Handling]
+--> F[Feature Extraction]
+--> G[ML Model]
+--> H[Prediction]
 ```
 
 ### Topics
@@ -894,7 +1000,7 @@ The repository also explores large-scale data processing concepts using Apache S
 
 ### Covered
 
-* Apache Spark Fundamentals
+* Apache Spark fundamentals
 * Spark with Python
 * RDDs
 * RDD Transformations
@@ -911,14 +1017,11 @@ flowchart LR
 
 A[Large Dataset]
 --> B[Apache Spark]
-
-B --> C[Distributed Processing]
-C --> D[RDD]
-
-D --> E[Transformations]
-E --> F[Actions]
-
-F --> G[Processed Results]
+--> C[Distributed Processing]
+--> D[RDD]
+--> E[Transformations]
+--> F[Actions]
+--> G[Processed Results]
 ```
 
 ---
@@ -937,7 +1040,7 @@ The repository progresses from traditional Machine Learning into Neural Networks
 * Neural Network Classification
 * TensorFlow Estimators
 * TensorBoard
-* Deep Learning Workflows
+* Deep Learning workflows
 
 ---
 
@@ -948,12 +1051,10 @@ flowchart LR
 
 A[Input Layer]
 --> B[Hidden Layer 1]
-
-B --> C[Hidden Layer 2]
-C --> D[Hidden Layer 3]
-
-D --> E[Output Layer]
-E --> F[Prediction]
+--> C[Hidden Layer 2]
+--> D[Hidden Layer 3]
+--> E[Output Layer]
+--> F[Prediction]
 ```
 
 ---
@@ -984,17 +1085,13 @@ flowchart TD
 
 A[Dataset]
 --> B[Preprocessing]
-
-B --> C[Train / Validation / Test]
-C --> D[Neural Network]
-
-D --> E[Forward Propagation]
-E --> F[Loss]
-
-F --> G[Backpropagation]
-G --> H[Optimizer]
-
-H --> D
+--> C[Train / Validation / Test]
+--> D[Neural Network]
+--> E[Forward Propagation]
+--> F[Loss]
+--> G[Backpropagation]
+--> H[Optimizer]
+--> D
 
 D --> I[Evaluation]
 I --> J[Prediction]
@@ -1008,7 +1105,7 @@ I --> J[Prediction]
 
 Hands-on work includes:
 
-* TensorFlow Fundamentals
+* TensorFlow fundamentals
 * Neural Networks
 * TensorFlow Estimators
 * MNIST
@@ -1032,7 +1129,7 @@ Hands-on work includes:
 
 # 📊 TensorBoard
 
-TensorBoard is used to understand and monitor Deep Learning experiments.
+TensorBoard is explored for monitoring and visualizing Deep Learning experiments.
 
 ### Areas of Exploration
 
@@ -1042,143 +1139,72 @@ TensorBoard is used to understand and monitor Deep Learning experiments.
 * Neural Network Workflows
 * Experiment Visualization
 
----
+### Deep Learning Experiment Flow
 
-# 🖼️ Visual Gallery
+```mermaid
+flowchart LR
 
-This section highlights the **actual analytical and Machine Learning visualizations** produced during the learning journey.
-
-> Place exported notebook plots inside the `assets/` directory.
-
----
-
-## 🔥 Correlation Heatmap
-
-<p align="center">
-  <img src="assets/correlation-heatmap.png" width="850" alt="Correlation Heatmap"/>
-</p>
-
-**Focus:** Understanding feature relationships and correlation patterns.
+A[Dataset]
+--> B[Neural Network]
+--> C[Training]
+--> D[Metrics]
+--> E[TensorBoard]
+--> F[Experiment Analysis]
+--> G[Model Improvement]
+```
 
 ---
 
-## 📈 Linear Regression Visualization
+# 📊 Data Visualization
 
-<p align="center">
-  <img src="assets/linear-regression.png" width="850" alt="Linear Regression"/>
-</p>
+Visualization is integrated throughout the Data Science and Machine Learning workflow.
 
-**Focus:** Regression relationships, predictions and model behavior.
+### Tools
 
----
+* Matplotlib
+* Seaborn
+* Plotly
+* Pandas Visualization
 
-## 🌳 Decision Tree Visualization
+### Visualization Techniques
 
-<p align="center">
-  <img src="assets/decision-tree.png" width="850" alt="Decision Tree"/>
-</p>
-
-**Focus:** Tree-based decision boundaries and model structure.
-
----
-
-## 🟣 K-Means Customer Segmentation
-
-<p align="center">
-  <img src="assets/kmeans.png" width="850" alt="K-Means Clustering"/>
-</p>
-
-**Focus:** Customer segmentation and cluster interpretation.
+* Histograms
+* Box Plots
+* Scatter Plots
+* Line Plots
+* Bar Charts
+* Heatmaps
+* Correlation Matrices
+* Distribution Plots
+* Interactive Visualizations
+* Geographical Visualizations
 
 ---
 
-## 🔵 DBSCAN / HDBSCAN
+# 🔥 Visualization → Machine Learning
 
-<p align="center">
-  <img src="assets/dbscan-hdbscan.png" width="850" alt="DBSCAN HDBSCAN"/>
-</p>
+```mermaid
+flowchart LR
 
-**Focus:** Density-based clustering, noise and outlier discovery.
-
----
-
-## 📐 PCA Visualization
-
-<p align="center">
-  <img src="assets/pca.png" width="850" alt="PCA"/>
-</p>
-
-**Focus:** Dimensionality reduction and explained variance.
-
----
-
-## 🌀 t-SNE & UMAP
-
-<p align="center">
-  <img src="assets/tsne-umap.png" width="850" alt="t-SNE UMAP"/>
-</p>
-
-**Focus:** High-dimensional feature-space visualization.
-
----
-
-## 📊 Classification Evaluation
-
-<p align="center">
-  <img src="assets/classification-evaluation.png" width="850" alt="Classification Evaluation"/>
-</p>
-
-**Focus:** Classification metrics and model performance comparison.
-
----
-
-## 🌲 Random Forest Evaluation
-
-<p align="center">
-  <img src="assets/random-forest-evaluation.png" width="850" alt="Random Forest Evaluation"/>
-</p>
-
-**Focus:** Ensemble performance and model evaluation.
-
----
-
-## 🧪 K-Means Evaluation
-
-<p align="center">
-  <img src="assets/kmeans-evaluation.png" width="850" alt="K-Means Evaluation"/>
-</p>
-
-**Focus:** Cluster evaluation and interpretation.
-
----
-
-## 📉 Regularization
-
-<p align="center">
-  <img src="assets/regularization.png" width="850" alt="Regularization"/>
-</p>
-
-**Focus:** Controlling model complexity and improving generalization.
-
----
-
-## ⚙️ ML Pipeline
-
-<p align="center">
-  <img src="assets/ml-pipeline.png" width="950" alt="Machine Learning Pipeline"/>
-</p>
-
-**Focus:** Preprocessing → PCA → Model → Cross Validation → GridSearchCV → Best Model.
+A[Dataset]
+--> B[EDA]
+--> C[Visualization]
+--> D[Correlation]
+--> E[Feature Understanding]
+--> F[Feature Engineering]
+--> G[Model Building]
+--> H[Evaluation]
+```
 
 ---
 
 # 🚀 Hands-On Projects
 
-This repository contains practical notebooks and projects built around real datasets and Machine Learning workflows.
+This repository contains practical notebooks and projects built around datasets and real Machine Learning workflows.
 
 ---
 
-# 🌦️ Australia Weather Prediction
+## 🌦️ Australia Weather Prediction
 
 A classification project focused on predicting rainfall/weather outcomes.
 
@@ -1205,16 +1231,15 @@ Model Evaluation
 * Classification
 * Feature Engineering
 * Seasonal Features
-* Logistic Regression
 * Random Forest
+* Logistic Regression
 * Model Evaluation
-* Classification Metrics
 
 ---
 
 # 🚕 Taxi Tip Prediction
 
-A regression-tree-based Machine Learning workflow.
+A regression-tree based Machine Learning workflow.
 
 ### Concepts
 
@@ -1256,7 +1281,7 @@ An unsupervised learning workflow using clustering.
 
 # 📞 911 Calls Analysis
 
-A data analysis and visualization project based on emergency call data.
+A Data Analysis and Visualization project based on emergency call data.
 
 ### Focus
 
@@ -1276,7 +1301,7 @@ Finance-oriented exploratory and analytical notebooks involving:
 * Visualization
 * Financial Datasets
 * Exploratory Data Analysis
-* Capstone-Style Workflows
+* Capstone-style workflows
 
 ---
 
@@ -1284,66 +1309,57 @@ Finance-oriented exploratory and analytical notebooks involving:
 
 ```mermaid
 mindmap
-
-root((Machine Learning Portfolio))
-
-  Data Science
-    NumPy
-    Pandas
-    EDA
-    Statistics
-    Visualization
-
-  Supervised Learning
-    Regression
-      Linear Regression
-      Regression Trees
-    Classification
-      Logistic Regression
-      KNN
-      Decision Trees
-      Random Forest
-      SVM
-      XGBoost
-
-  Unsupervised Learning
-    K-Means
-    DBSCAN
-    HDBSCAN
-    PCA
-    t-SNE
-    UMAP
-
-  Advanced ML
-    Pipelines
-    Cross Validation
-    GridSearchCV
-    Regularization
-    Model Selection
-
-  Recommendation
-    Recommender Systems
-    Similarity
-    Personalization
-
-  NLP
-    NLTK
-    Text Processing
-    Classification
-    Text Analysis
-
-  Big Data
-    Apache Spark
-    RDD
-    Transformations
-    Actions
-
-  Deep Learning
-    Neural Networks
-    TensorFlow
-    Keras
-    MNIST
-    TensorBoard
+  root((Machine Learning Portfolio))
+    Data Science
+      NumPy
+      Pandas
+      EDA
+      Statistics
+      Visualization
+    Supervised Learning
+      Regression
+        Linear Regression
+        Regression Trees
+      Classification
+        Logistic Regression
+        KNN
+        Decision Trees
+        Random Forest
+        SVM
+        XGBoost
+    Unsupervised Learning
+      K-Means
+      DBSCAN
+      HDBSCAN
+      PCA
+      t-SNE
+      UMAP
+    Advanced ML
+      Pipelines
+      Cross Validation
+      GridSearchCV
+      Regularization
+      Model Selection
+    Recommendation
+      Recommender Systems
+      Similarity
+      Personalization
+    NLP
+      NLTK
+      Text Processing
+      Classification
+      Text Analysis
+    Big Data
+      Apache Spark
+      RDD
+      Transformations
+      Actions
+    Deep Learning
+      Neural Networks
+      TensorFlow
+      Keras
+      MNIST
+      TensorBoard
 ```
 
 ---
@@ -1355,27 +1371,20 @@ flowchart TD
 
 A[Business Problem]
 --> B[Data Collection]
-
-B --> C[Data Understanding]
-C --> D[EDA]
-
-D --> E[Data Cleaning]
-E --> F[Feature Engineering]
-
-F --> G[Train/Test Split]
-G --> H[Preprocessing]
-
-H --> I[Baseline Model]
-I --> J[Multiple Models]
-
-J --> K[Cross Validation]
-K --> L[Hyperparameter Tuning]
-
-L --> M[Model Comparison]
-M --> N[Final Model]
-
-N --> O[Interpretation]
-O --> P[Deployment / Production]
+--> C[Data Understanding]
+--> D[EDA]
+--> E[Data Cleaning]
+--> F[Feature Engineering]
+--> G[Train / Test Split]
+--> H[Preprocessing]
+--> I[Baseline Model]
+--> J[Multiple Models]
+--> K[Cross Validation]
+--> L[Hyperparameter Tuning]
+--> M[Model Comparison]
+--> N[Final Model]
+--> O[Interpretation]
+--> P[Deployment / Production]
 ```
 
 ---
@@ -1540,6 +1549,7 @@ D --> D5[t-SNE / UMAP]
 * RDDs
 * Transformations
 * Actions
+* Distributed Processing Concepts
 
 ---
 
@@ -1568,20 +1578,6 @@ machine_learning_with_python/
 ├── 18.ML_Pipelines_and_GridSearchCV.ipynb
 ├── 19.Practice_Project.ipynb
 ├── 20.FinalProject_AUSWeather.ipynb
-│
-├── assets/
-│   ├── correlation-heatmap.png
-│   ├── linear-regression.png
-│   ├── decision-tree.png
-│   ├── kmeans.png
-│   ├── dbscan-hdbscan.png
-│   ├── pca.png
-│   ├── tsne-umap.png
-│   ├── classification-evaluation.png
-│   ├── random-forest-evaluation.png
-│   ├── kmeans-evaluation.png
-│   ├── regularization.png
-│   └── ml-pipeline.png
 │
 └── machile_learning_basic_to_advance/
     │
@@ -1796,21 +1792,21 @@ I enjoy working with data, experimenting with Machine Learning models and unders
           ┌─────────────────┼─────────────────┐
           │                 │                 │
           ▼                 ▼                 ▼
-     Data Science     Machine Learning   Deep Learning
+    Data Science      Machine Learning   Deep Learning
           │                 │                 │
-       Pandas          Scikit-Learn      TensorFlow
-       NumPy           Regression        Keras
-       EDA             Classification    ANN
-       Visualization   Clustering        TensorBoard
-                       PCA
-                       NLP
-                       Recommendation
-                       Spark
+       Pandas           Scikit-Learn     TensorFlow
+       NumPy            Regression       Keras
+       EDA              Classification   ANN
+       Visualization    Clustering       TensorBoard
+                         PCA
+                         NLP
+                         Recommendation
+                         Spark
 ```
 
 ---
 
-# 🧠 What I Want to Be Able to Build
+# 🧠 What I Want to Build
 
 ```text
 Real-World Problem
@@ -1846,6 +1842,8 @@ Improve
 
 # ⭐ Repository Highlights
 
+<p align="center">
+
 | Area                   | Status |
 | ---------------------- | :----: |
 | Python                 |    ✅   |
@@ -1877,6 +1875,8 @@ Improve
 | Neural Networks        |    ✅   |
 | TensorBoard            |    ✅   |
 
+</p>
+
 ---
 
 # 🏅 The Bigger Picture
@@ -1884,37 +1884,63 @@ Improve
 This repository represents my progression across the major layers of the Machine Learning ecosystem.
 
 ```text
-                       MACHINE LEARNING
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-          ▼                   ▼                   ▼
-    DATA SCIENCE         CLASSICAL ML        DEEP LEARNING
-          │                   │                   │
-          │                   │                   ├── TensorFlow
-          │                   │                   ├── Keras
-          │                   │                   ├── ANN
-          │                   │                   └── TensorBoard
-          │                   │
-          │                   ├── Regression
-          │                   ├── Classification
-          │                   ├── Trees
-          │                   ├── Random Forest
-          │                   ├── SVM
-          │                   └── XGBoost
-          │
-          ├── NumPy
-          ├── Pandas
-          ├── EDA
-          └── Visualization
+                         MACHINE LEARNING
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+       DATA SCIENCE       CLASSICAL ML       DEEP LEARNING
+             │                  │                  │
+             │                  │                  ├── TensorFlow
+             │                  │                  ├── Keras
+             │                  │                  ├── ANN
+             │                  │                  └── TensorBoard
+             │                  │
+             │                  ├── Regression
+             │                  ├── Classification
+             │                  ├── Decision Trees
+             │                  ├── Random Forest
+             │                  ├── SVM
+             │                  └── XGBoost
+             │
+             ├── NumPy
+             ├── Pandas
+             ├── EDA
+             ├── Statistics
+             └── Visualization
 
-                       ADVANCED ML
+                         ADVANCED ML
                               │
              ┌────────────────┼────────────────┐
-             ▼                ▼                ▼
-            NLP        Recommendation        Spark
              │                │                │
-            NLTK       Personalization     Big Data
+             ▼                ▼                ▼
+            NLP        Recommendation       Spark
+             │                │                │
+            NLTK        Personalization    Big Data
+             │                │                │
+             └────────────────┼────────────────┘
+                              │
+                         AI SYSTEMS
+```
+
+---
+
+# 🧭 My Machine Learning Journey
+
+```mermaid
+flowchart LR
+
+A[Python] --> B[Data Science]
+B --> C[EDA]
+C --> D[Machine Learning]
+D --> E[Model Evaluation]
+E --> F[Optimization]
+F --> G[Advanced ML]
+G --> H[NLP]
+H --> I[Big Data]
+I --> J[Deep Learning]
+J --> K[AI Engineering]
+K --> L[Production ML]
 ```
 
 ---
@@ -1935,31 +1961,44 @@ The long-term goal is to transform this foundation into **production-ready Machi
 
 ```text
                 LEARNING
-                    ↓
-              EXPERIMENTING
-                    ↓
+                   ↓
+             EXPERIMENTING
+                   ↓
                 BUILDING
-                    ↓
+                   ↓
              PROBLEM SOLVING
-                    ↓
-             MACHINE LEARNING
-                    ↓
+                   ↓
+            MACHINE LEARNING
+                   ↓
           ARTIFICIAL INTELLIGENCE
-                    ↓
-             PRODUCTION SYSTEMS
+                   ↓
+             AI ENGINEERING
+                   ↓
+           PRODUCTION SYSTEMS
+                   ↓
+          CONTINUOUS LEARNING
 ```
 
 ---
 
-# 🤖 Learning Machine Learning. Building with Data. Growing into AI.
+<p align="center">
+
+## 🤖 Learning Machine Learning. Building with Data. Growing into AI.
+
+</p>
 
 <p align="center">
 
 <img src="https://img.shields.io/badge/Status-Actively%20Learning-success?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Focus-Machine%20Learning-blue?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Deep%20Learning-TensorFlow-orange?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/NLP-NLTK-green?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Recommendation%20Systems-Advanced-purple?style=for-the-badge" />
+
 <img src="https://img.shields.io/badge/Big%20Data-Apache%20Spark-E25A1C?style=for-the-badge" />
 
 </p>
@@ -1974,15 +2013,7 @@ The long-term goal is to transform this foundation into **production-ready Machi
 
 <p align="center">
 
-<b>Made with Python 🐍 | Machine Learning 🤖 | Deep Learning 🧠 | Data 📊 | Curiosity 🚀</b>
-
-</p>
-
----
-
-<p align="center">
-
-<i>🚀 The journey from learning algorithms to building intelligent systems continues...</i>
+<b>Made with Python 🐍 | Machine Learning 🤖 | Deep Learning 🧠 | Curiosity 🚀</b>
 
 </p>
 ```
