@@ -255,9 +255,9 @@ Regularization
 
 **Choose:** your strongest **Linear Regression scatter plot with regression line**.
 
-```text
-![Linear Regression](linearregression.png)
-```
+
+![linearregression](linearregression.png)
+
 
 ---
 
