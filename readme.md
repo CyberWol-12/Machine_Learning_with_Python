@@ -45,7 +45,7 @@ I created this with curiosity, a passion for learning, and a storyteller's minds
 
 ---
 
-# 📌 About This Repository
+# 1. About This Repository
 
 This repository documents my hands-on journey through **Machine Learning, Data Science and AI** using Python.
 
@@ -64,7 +64,7 @@ The goal is not only to understand algorithms theoretically, but to understand:
 
 ---
 
-# 🧭 Machine Learning Journey
+# 2.Machine Learning Journey
 
 ```mermaid
 flowchart TD
@@ -117,7 +117,7 @@ Y --> AC[Big Data & Spark]
 
 ---
 
-# 📑 Table of Contents
+# 3. Table of Contents
 
 * [About This Repository](#-about-this-repository)
 * [Machine Learning Journey](#-machine-learning-journey)
@@ -142,9 +142,9 @@ Y --> AC[Big Data & Spark]
 
 ---
 
-# 🛠️ Technology Stack
+# 4. Technology Stack
 
-## 🐍 Programming & Data
+##  Programming & Data
 
 <p align="center">
 
@@ -169,7 +169,7 @@ Y --> AC[Big Data & Spark]
 
 ---
 
-# 🤖 Machine Learning Coverage
+# 5.Machine Learning Coverage
 
 This repository covers the complete machine learning workflow.
 
@@ -195,7 +195,7 @@ This repository covers the complete machine learning workflow.
 
 ---
 
-# 📊 Data Science & Visualization
+# 6. Data Science & Visualization
 
 A strong ML workflow starts with understanding the data.
 
@@ -226,13 +226,13 @@ I practiced exploratory data analysis and visualization using:
 
 ---
 
-# 🎯 Supervised Learning
+# 6a. Supervised Learning
 
 Supervised learning forms one of the core parts of this repository.
 
 ---
 
-## 📈 Regression
+## 6b.Regression
 
 ### Concepts Covered
 
@@ -261,7 +261,7 @@ Regularization
 
 ---
 
-## 🧮 Simple Linear Regression
+## 6c. Simple Linear Regression
 
 Simple Linear Regression models the relationship between an independent variable and a continuous target variable.
 
@@ -287,7 +287,7 @@ Evaluation
 
 ---
 
-## 📊 Multiple Linear Regression
+## 6d. Multiple Linear Regression
 
 Multiple Linear Regression extends regression to multiple independent variables.
 
@@ -306,7 +306,7 @@ Multiple Linear Regression extends regression to multiple independent variables.
 
 ---
 
-## 🔧 Regularization
+## 6e. Regularization
 
 Regularization helps control model complexity and reduce overfitting.
 
@@ -323,7 +323,7 @@ Regularization helps control model complexity and reduce overfitting.
 
 ---
 
-# 🏷️ Classification
+# 6f. Classification
 
 Classification is used to predict categorical outcomes.
 
@@ -339,7 +339,7 @@ Classification is used to predict categorical outcomes.
 
 ---
 
-## 🔵 Logistic Regression
+## 6g. Logistic Regression
 
 Logistic Regression is used for classification problems where the target represents discrete classes.
 
@@ -348,7 +348,7 @@ Logistic Regression is used for classification problems where the target represe
 
 ---
 
-## 🌳 Decision Trees
+## 6h. Decision Trees
 
 Decision Trees make predictions using a sequence of decision rules.
 
@@ -366,7 +366,7 @@ Decision Trees make predictions using a sequence of decision rules.
 
 ---
 
-## 🌲 Random Forest
+## 6i. Random Forest
 
 Random Forest combines multiple decision trees to create a powerful ensemble model.
 
@@ -384,7 +384,7 @@ Random Forest combines multiple decision trees to create a powerful ensemble mod
 
 ---
 
-## 🎯 K-Nearest Neighbors — KNN
+## 6j. K-Nearest Neighbors — KNN
 
 KNN predicts a class based on neighboring observations.
 
@@ -401,7 +401,7 @@ KNN predicts a class based on neighboring observations.
 
 ---
 
-## ⚙️ Support Vector Machines — SVM
+## 6k. Support Vector Machines — SVM
 
 SVM finds an optimal decision boundary between classes.
 
@@ -418,13 +418,13 @@ SVM finds an optimal decision boundary between classes.
 
 ---
 
-# 🔍 Unsupervised Learning
+# 6l. Unsupervised Learning
 
 Unsupervised learning discovers hidden patterns and structures in unlabeled data.
 
 ---
 
-# 👥 K-Means Clustering
+# 6m. K-Means Clustering
 
 K-Means groups observations into clusters based on similarity.
 
@@ -441,7 +441,7 @@ K-Means groups observations into clusters based on similarity.
 
 
 
-## 🧬 PCA — Principal Component Analysis
+## 6n. PCA — Principal Component Analysis
 
 PCA transforms high-dimensional data into a smaller set of principal components.
 
@@ -458,7 +458,7 @@ PCA transforms high-dimensional data into a smaller set of principal components.
 
 ---
 
-## 🌌 t-SNE & UMAP
+## 6o.t-SNE & UMAP
 
 t-SNE and UMAP are powerful techniques for visualizing high-dimensional datasets.
 
@@ -467,7 +467,7 @@ t-SNE and UMAP are powerful techniques for visualizing high-dimensional datasets
 
 ---
 
-# 🧪 Model Evaluation & Optimization
+# 6p. Model Evaluation & Optimization
 
 Building a model is only one part of Machine Learning.
 
@@ -493,7 +493,7 @@ A production-oriented workflow requires reliable evaluation and optimization.
 
 ---
 
-## 📊 Classification Model Evaluation
+## 6q. Classification Model Evaluation
 
 ### ⭐ Best Visualization
 
@@ -503,7 +503,7 @@ Choose your **confusion matrix heatmap**.
 ![confusion matrix heatmap](confusion_matrix_heatmap.png)
 
 
-## 🔄 Cross Validation
+## 6r.Cross Validation
 
 Cross-validation provides a more reliable estimate of model performance.
 
@@ -521,7 +521,7 @@ Average Performance
 
 ---
 
-# ⚙️ ML Pipelines & GridSearchCV
+# 6s. ML Pipelines & GridSearchCV
 
 A professional ML workflow should avoid disconnected preprocessing and modeling steps.
 
@@ -559,7 +559,7 @@ Evaluation
 
 ---
 
-# 🎯 Recommendation Systems
+# 6t. Recommendation Systems
 
 Recommendation systems are used to personalize content, products and services.
 
@@ -585,7 +585,7 @@ Recommendation systems are used to personalize content, products and services.
 
 ---
 
-# 📝 Natural Language Processing
+# 6u. Natural Language Processing
 
 NLP enables machines to process and understand human language.
 
@@ -623,7 +623,7 @@ Prediction
 
 ---
 
-# 🧠 Deep Learning
+# 6v. Deep Learning
 
 This repository also extends into Deep Learning using **TensorFlow and Keras**.
 
@@ -643,7 +643,7 @@ This repository also extends into Deep Learning using **TensorFlow and Keras**.
 
 ---
 
-## 🧠 Artificial Neural Networks
+## 6w. Artificial Neural Networks
 
 ```text
 Input Layer
@@ -659,7 +659,7 @@ Output Layer
 
 ---
 
-## 🔢 Keras Regression - HeatmapKERAS
+## 6x. Keras Regression - HeatmapKERAS
 
 Keras was used to build neural-network-based regression workflows.
 
@@ -668,7 +668,7 @@ Keras was used to build neural-network-based regression workflows.
 
 ---
 
-## 🏷️ Keras Classification
+## 6y. Keras Classification
 
 Neural networks were also explored for classification problems.
 
@@ -677,7 +677,7 @@ Neural networks were also explored for classification problems.
 
 ---
 
-## Model loss
+## 6z.Model loss
 
 ![model loss](modelloss.png)
 **epochs--600**
@@ -687,11 +687,11 @@ Neural networks were also explored for classification problems.
 ---
 
 
-# Hands-On Projects
+# 7. Hands-On Projects
 
 ---
 
-## 🌦️ Australia Weather / Rainfall Prediction
+## a. Australia Weather / Rainfall Prediction
 
 A complete classification workflow using weather data.
 
@@ -728,7 +728,7 @@ Evaluation
 
 ---
 
-## Taxi Tip / Regression Trees
+## b.Taxi Tip / Regression Trees
 
 A regression workflow based on taxi data.
 
@@ -742,7 +742,7 @@ A regression workflow based on taxi data.
 
 ---
 
-## Credit Card Fraud Detection
+## c.Credit Card Fraud Detection
 
 Classification experiments using tree-based and SVM approaches.
 
@@ -758,7 +758,7 @@ Classification experiments using tree-based and SVM approaches.
 
 ---
 
-## Customer Segmentation
+## d.Customer Segmentation
 
 K-Means clustering applied to customer segmentation.
 
@@ -774,7 +774,7 @@ K-Means clustering applied to customer segmentation.
 
 ---
 
-## 911 Calls Analysis
+## e. 911 Calls Analysis
 
 Exploratory data analysis of emergency call data.
 
@@ -789,13 +789,13 @@ Exploratory data analysis of emergency call data.
 
 ---
 
-## 💰 Finance Data Analysis
+## f. Finance Data Analysis
 
 Finance-oriented exploratory analysis and visualization.
 
 
 
-# 🏆 Project Portfolio
+# 8.  Project Portfolio
 
 | Project                      | Domain              | Techniques                    |
 | ---------------------------- | ------------------- | ----------------------------- |
@@ -813,7 +813,7 @@ Finance-oriented exploratory analysis and visualization.
 ---
 
 
-# Future Roadmap
+# 9.Future Roadmap
 
 The next stage of this journey focuses on building production-oriented AI and Data Science systems.
 
@@ -836,9 +836,9 @@ The next stage of this journey focuses on building production-oriented AI and Da
 
 ---
 
-# 👩‍💻 About Me
+# 10 About Me 😊😊
 
-Hi! I'm **Divya Upadhyay**, a final-year **BTech Computer Science & Engineering student specializing in Artificial Intelligence**.
+Hi! I'm **Divya Upadhyay😊**, a final-year **BTech Computer Science & Engineering student specializing in Artificial Intelligence**.
 
 I am passionate about:
 
@@ -861,28 +861,6 @@ I enjoy transforming raw data into meaningful insights and building machine lear
 
 ---
 
-# 🌟 Why This Repository Matters
-
-This repository represents more than a collection of notebooks.
-
-It demonstrates my ability to:
-
-✅ Understand ML concepts
-✅ Implement algorithms from scratch/practical workflows
-✅ Work with real datasets
-✅ Perform exploratory analysis
-✅ Build predictive models
-✅ Compare multiple algorithms
-✅ Evaluate model performance
-✅ Tune hyperparameters
-✅ Build ML pipelines
-✅ Visualize results
-✅ Work with NLP
-✅ Explore Recommendation Systems
-✅ Work with TensorFlow & Keras
-✅ Build project-based solutions
-
----
 
 
 
