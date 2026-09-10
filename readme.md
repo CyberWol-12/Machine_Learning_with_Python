@@ -218,8 +218,6 @@ I practiced exploratory data analysis and visualization using:
 ![heatmap](heatmap.png)
 
 
-> 💡 Best choice: A graph where multiple variables and patterns are clearly visible. A beautiful correlation heatmap is especially good here.
-
 ---
 
 # 🎯 Supervised Learning
@@ -251,10 +249,6 @@ Regression Trees
 Regularization
 ```
 
-### ⭐ Best Image to Add
-
-**Choose:** your strongest **Linear Regression scatter plot with regression line**.
-
 
 ![linearregression](linearregression.png)
 
@@ -281,12 +275,6 @@ Prediction
 Evaluation
 ```
 
-### ⭐ Recommended Visualization
-
-Choose the graph showing:
-
-**Actual data points + regression line**
-
 
 ![Regression Line](regression_line.png)
 
@@ -306,10 +294,6 @@ Multiple Linear Regression extends regression to multiple independent variables.
 * Evaluation
 * Interpretation
 
-### ⭐ Recommended Visualization
-
-Choose your **best multiple regression output / prediction visualization**.
-
 
 ![Prediction visualizatio](multiple_regression_output.png)
 
@@ -327,11 +311,6 @@ Regularization helps control model complexity and reduce overfitting.
 * Model complexity
 * Bias-variance trade-off
 * Overfitting control
-
-### ⭐ Recommended Visualization
-
-Choose your **best regularization graph**, preferably the one clearly showing model performance/change with regularization.
-
 
 ![Pairplot](pairplot.png)
 
@@ -358,11 +337,6 @@ Classification is used to predict categorical outcomes.
 
 Logistic Regression is used for classification problems where the target represents discrete classes.
 
-### ⭐ Recommended Visualization
-
-Choose your **Logistic Regression classification visualization**.
-
-
 ![Logistic_Regression_classification_visualization](Logistic_Regression_classification_visualization.png)
 
 
@@ -381,15 +355,8 @@ Decision Trees make predictions using a sequence of decision rules.
 * Tree depth
 * Overfitting
 
-### ⭐ Recommended Visualization
-
-**Best choice:** a clearly visible **Decision Tree diagram**.
-
 
 ![Decision_Tree_diagram](Decision_Tree_diagram.png)
-
-
-> 💡 This is one of the best visuals for a recruiter because the algorithm is immediately understandable visually.
 
 ---
 
@@ -405,11 +372,6 @@ Random Forest combines multiple decision trees to create a powerful ensemble mod
 * Feature importance
 * Classification
 * Regression
-
-### ⭐ Recommended Visualization
-
-Choose your best **Random Forest performance / feature importance visualization**.
-
 
 ![Random Forest performance](Random_Forest_performance.png)
 
@@ -428,11 +390,6 @@ KNN predicts a class based on neighboring observations.
 * Choosing K
 * Model evaluation
 
-### ⭐ Recommended Visualization
-
-Choose your best **KNN classification plot**.
-
-
 ![KNN classification plot](KNN_classification_plot.png)
 
 
@@ -449,11 +406,6 @@ SVM finds an optimal decision boundary between classes.
 * Support vectors
 * Classification
 * Kernel concepts
-
-### ⭐ Recommended Visualization
-
-Choose your **SVM decision boundary / classification visualization**.
-
 
 ![SVM decision boundary](SVMdecisionboundary.png)
 
@@ -479,11 +431,6 @@ K-Means groups observations into clusters based on similarity.
 * Elbow method
 * Cluster evaluation
 
-### ⭐ Best Visualization
-
-**Customer segmentation cluster plot**.
-
-
 ![K-Means Clustering](K-Means_Clustering.png)
 
 
@@ -499,10 +446,6 @@ PCA transforms high-dimensional data into a smaller set of principal components.
 * Feature transformation
 * Dimensionality reduction
 
-### ⭐ Best Visualization
-
-Choose your **PCA explained variance / PCA projection graph**.
-
 
 ![PCA explained variance](PCA_explained_variance.png)
 
@@ -512,11 +455,6 @@ Choose your **PCA explained variance / PCA projection graph**.
 ## 🌌 t-SNE & UMAP
 
 t-SNE and UMAP are powerful techniques for visualizing high-dimensional datasets.
-
-### ⭐ Best Visualization
-
-Choose the visualization where **clusters are clearly separated**.
-
 
 ![ t-SNE & UMAP](t-SNE.png)
 
@@ -559,12 +497,6 @@ Choose your **confusion matrix heatmap**.
 ![confusion matrix heatmap](confusion_matrix_heatmap.png)
 
 
-> 💡 **Best recruiter choice:** Confusion Matrix + Heatmap because it immediately shows that you understand model evaluation.
-
----
-
-
-
 ## 🔄 Cross Validation
 
 Cross-validation provides a more reliable estimate of model performance.
@@ -580,14 +512,6 @@ Fold 5
    ↓
 Average Performance
 ```
-
-### ⭐ Recommended Image
-
-Choose any visualization from your evaluation notebook that demonstrates **model comparison or validation performance**.
-
-
-![](YOUR_IMAGE_PATH_HERE)
-
 
 ---
 
@@ -624,12 +548,6 @@ Best Parameters
    ↓
 Evaluation
 ```
-
-### ⭐ Best Visualization
-
-Choose your **GridSearchCV / ML Pipeline output**.
-
-
 ![GridSearchCV / ML Pipeline output](Mlpiprline_gridsearch.png)
 
 
@@ -655,11 +573,6 @@ Recommendation systems are used to personalize content, products and services.
 * YouTube
 * E-commerce
 * Travel platforms
-
-### ⭐ Best Visualization
-
-Choose your strongest **Recommendation System result / similarity visualization**.
-
 
 ![Recommendation System result](RecommendationSystemresult.png)
 
@@ -699,12 +612,6 @@ Model
    ↓
 Prediction
 ```
-
-### ⭐ Best Visualization
-
-Choose your best **NLP word-frequency / text analysis / classification visualization**.
-
-
 ![NLP-word-frequency](NLP-word-frequency.png)
 
 
@@ -741,12 +648,6 @@ Hidden Layer
      ↓
 Output Layer
 ```
-
-### ⭐ Best Visualization
-
-Choose your **neural network architecture / model training visualization**.
-
-
 ![tensorflow](tensorflow.png)
 
 
@@ -756,11 +657,6 @@ Choose your **neural network architecture / model training visualization**.
 
 Keras was used to build neural-network-based regression workflows.
 
-### ⭐ Best Visualization
-
-Choose your **training loss / validation loss graph**.
-
-
 ![training loss](keras.png)
 
 
@@ -769,9 +665,6 @@ Choose your **training loss / validation loss graph**.
 ## 🏷️ Keras Classification
 
 Neural networks were also explored for classification problems.
-
-
-
 
 ![keras](kerasclassification.png)
 
