@@ -853,7 +853,7 @@ I am passionate about:
 
 I enjoy transforming raw data into meaningful insights and building machine learning solutions that solve practical problems.
 
-
+**Thank you for your valuable time and for exploring my work! 🤝**
 
 
 
